@@ -1,6 +1,7 @@
 const { Router } = require('express');
 const router = Router();
-const container = require('../Container');
+const Container = require('../Container');
+const container = new Container('products.txt');
 
 router.get('/', (req, res) => {
 	container.getAll().then((data) => {
@@ -17,7 +18,7 @@ router.get('/:id', (req, res) => {
 	container
 		.getbyId(id)
 		.then((data) => {
-			res.status(200).res.json(data);
+			res.status(200).json(data);
 		})
 		.catch((err) => {
 			res.status(404).json({ error: 'Producto no encontrado' });
@@ -39,7 +40,7 @@ router.put('/:id', (req, res) => {
 	container
 		.updateById(id, { title, price, thumbnail })
 		.then(() => {
-			res.status(200);
+			res.status(200).json({ message: 'Producto actualizado' });
 		})
 		.catch((err) => {
 			res.status(404).json({ error: 'Producto no encontrado' });
@@ -52,7 +53,7 @@ router.delete('/:id', (req, res) => {
 	container
 		.deleteById(id)
 		.then(() => {
-			res.status(200);
+			res.status(200).json({ message: 'Producto eliminado' });
 		})
 		.catch((err) => {
 			res.status(404).json({ error: 'Producto no encontrado' });

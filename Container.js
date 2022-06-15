@@ -82,6 +82,4 @@ class Container {
 	}
 }
 
-const container = new Container('products.txt');
-
-module.exports = container;
+module.exports = Container;
