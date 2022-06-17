@@ -3,7 +3,7 @@ const Container = require('./Container');
 const container = new Container('products.txt');
 
 const renderForm = (req, res) => {
-	res.render('form', {});
+	res.render('form.pug', {});
 };
 
 const getProducts = (req, res) => {
