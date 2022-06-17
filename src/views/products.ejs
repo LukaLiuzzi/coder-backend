@@ -1,0 +1,11 @@
+<ul>
+	<% if(products){ %> <% for (let product of products){ %>
+	<li><%= product.title %></li>
+	<li><%= product.price %></li>
+	<img src="<%= product.thumbnail %>" alt="<%= product.title %>" />
+	<hr />
+	<% } %> <% } else{ %>
+	<li>No hay productos</li>
+	<% } %>
+</ul>
+<button><a href="/">Agregar un producto</a></button>

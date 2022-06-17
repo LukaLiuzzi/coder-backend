@@ -3,14 +3,14 @@ const Container = require('./Container');
 const container = new Container('products.txt');
 
 const renderForm = (req, res) => {
-	res.render('form.pug', {});
+	res.render('form.ejs', {});
 };
 
 const getProducts = (req, res) => {
 	container
 		.getAll()
 		.then((products) => {
-			res.render('products', { products });
+			res.render('products.ejs', { products });
 		})
 		.catch((err) => {
 			console.error(err);
