@@ -4,13 +4,12 @@ const path = require('path');
 const { Server: IOServer } = require('socket.io');
 const Container = require('./container');
 const Chat = require('./chat');
-const { dbConnectionMySQL, dbConnectionSQLite } = require('./dbConfig');
 const expressServer = app.listen(8080, () =>
 	console.log('Server is running on port 8080')
 );
 const io = new IOServer(expressServer);
-const products = new Container(dbConnectionMySQL, 'products');
-const chat = new Chat(dbConnectionSQLite, 'messages');
+const products = new Container('products');
+const chat = new Chat('messages');
 
 app.use(express.static(path.join(__dirname, '../public')));
 

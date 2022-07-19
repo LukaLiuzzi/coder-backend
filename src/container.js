@@ -1,9 +1,4 @@
 class Container {
-	constructor(knexConfig, table) {
-		this.knexConfig = knexConfig;
-		this.table = table;
-	}
-
 	async save(obj) {
 		try {
 			await this.knexConfig(this.table).insert(obj);
