@@ -1,81 +1,84 @@
-import Products from '../models/products.js';
-const products = new Products('products.txt');
+import productsServicesMongo from '../services/productsServicesMongo.js';
 
 export const getProducts = (req, res) => {
 	const { id } = req.params;
 	if (id) {
-		products
-			.getById(id)
+		productsServicesMongo
+			.getProductById(id)
 			.then((product) => {
-				if (product) {
-					res.json(product);
-				} else {
-					res.json({
-						message: 'No se encontró el producto con el id ' + id,
-					});
-				}
+				res.status(200).json(product);
 			})
 			.catch((err) => {
-				res.json(err);
+				res.status(500).json({ message: err });
 			});
 	} else {
-		products
-			.getAll()
+		productsServicesMongo
+			.getProducts()
 			.then((products) => {
-				if (products) {
-					res.json(products);
-				} else {
-					res.json({
-						message: 'No se encontraron productos',
-					});
-				}
+				res.status(200).json(products);
 			})
 			.catch((err) => {
-				res.json(err);
+				res.status(500).json({ message: err });
 			});
 	}
 };
 
 export const saveProduct = (req, res) => {
-	const { name, price, description, code, img, stock } = req.body;
+	const { name, price, description, code, image, stock, category, quantity } =
+		req.body;
 
-	products
-		.save({ name, price, description, code, img, stock })
+	productsServicesMongo
+		.saveProduct({
+			name,
+			price,
+			description,
+			code,
+			image,
+			stock,
+			category,
+			quantity,
+		})
 		.then((product) => {
-			res.json({ message: 'Producto guardado correctamente' });
+			res.status(201).json(product);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
 
 export const updateProduct = (req, res) => {
 	const { id } = req.params;
-	const { name, price, description, code, img, stock } = req.body;
+	const { name, price, description, code, image, stock, category, quantity } =
+		req.body;
 
-	products
-		.updateById(id, { name, price, description, code, img, stock })
+	productsServicesMongo
+		.updateProduct(id, {
+			name,
+			price,
+			description,
+			code,
+			image,
+			stock,
+			category,
+			quantity,
+		})
 		.then((product) => {
-			res.json({ message: 'Producto actualizado correctamente' });
+			res.status(200).json(product);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
 
 export const deleteProduct = (req, res) => {
-	products
-		.deleteById(req.params.id)
+	const { id } = req.params;
+
+	productsServicesMongo
+		.deleteProduct(id)
 		.then((product) => {
-			if (product) {
-				res.json({ message: 'Producto eliminado correctamente' });
-			} else {
-				res.json({
-					message: 'No se encontró el producto con el id ' + req.params.id,
-				});
-			}
+			res.status(200).json(product);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };

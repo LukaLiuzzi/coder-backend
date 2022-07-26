@@ -1,87 +1,65 @@
-import Cart from '../models/carts.js';
-const cart = new Cart('carts.txt');
+import cartsServicesMongo from '../services/cartsServicesMongo.js';
 
 export const postCart = (req, res) => {
-	cart
-		.save()
-		.then((id) => {
-			res.json({ message: 'Carrito creado correctamente con el id ' + id });
+	cartsServicesMongo
+		.postCart()
+		.then((cart) => {
+			res.status(201).json(cart);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
 
 export const deleteCart = (req, res) => {
-	cart
-		.deleteById(req.params.id)
-		.then((cart) => {
-			if (cart) {
-				res.json({ message: 'Carrito eliminado correctamente' });
-			} else {
-				res.json({
-					message: 'No se encontró el carrito con el id ' + req.params.id,
-				});
-			}
+	const { id } = req.params;
+
+	cartsServicesMongo
+		.deleteCart(id)
+		.then((json) => {
+			res.status(200).json(json);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
 
 export const getProductsById = (req, res) => {
-	cart
-		.getProductsById(req.params.id)
-		.then((products) => {
-			if (products) {
-				res.json(products);
-			} else {
-				res.json({
-					message:
-						'No se encontraron productos en el carrito con el id ' +
-						req.params.id,
-				});
-			}
+	const { id } = req.params;
+
+	cartsServicesMongo
+		.getProductsById(id)
+		.then((cart) => {
+			res.json(cart);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
 
 export const deleteProductFromCart = (req, res) => {
-	cart
-		.deleteProductFromCart(req.params.id, req.params.id_prod)
-		.then((product) => {
-			if (product) {
-				res.json({ message: 'Producto eliminado correctamente' });
-			} else {
-				res.json({
-					message:
-						'No se encontró el producto con el id ' +
-						req.params.id_prod +
-						' en el carrito con id ' +
-						req.params.id,
-				});
-			}
+	const { id, id_prod } = req.params;
+
+	cartsServicesMongo
+		.deleteProductFromCart(id, id_prod)
+		.then((cart) => {
+			res.json(cart);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
 
 export const addProductToCart = (req, res) => {
-	cart
-		.addProductToCart(req.params.id, req.body.productId)
+	const { id } = req.params;
+	const { product } = req.body;
+
+	cartsServicesMongo
+		.addProductToCart(id, product)
 		.then((cart) => {
-			if (cart) {
-				res.json({ message: 'Producto agregado correctamente' });
-			} else {
-				res.json({
-					message: 'Hubo un error al agregar el producto al carrito',
-				});
-			}
+			res.json(cart);
 		})
 		.catch((err) => {
-			res.json(err);
+			res.status(500).json({ message: err });
 		});
 };
