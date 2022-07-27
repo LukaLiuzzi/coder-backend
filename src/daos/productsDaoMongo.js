@@ -1,6 +1,6 @@
 import MongoContainer from '../containers/mongoContainer.js';
 
-class ProductsDaoMongo extends MongoContainer {
+export default class ProductsDaoMongo extends MongoContainer {
 	constructor() {
 		super('products', {
 			name: { type: String, required: true },
@@ -16,5 +16,3 @@ class ProductsDaoMongo extends MongoContainer {
 		});
 	}
 }
-
-export default ProductsDaoMongo;

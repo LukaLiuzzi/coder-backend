@@ -1,6 +1,6 @@
 import MongoContainer from '../containers/mongoContainer.js';
 
-class CartsDaoMongo extends MongoContainer {
+export default class CartsDaoMongo extends MongoContainer {
 	constructor() {
 		super('carts', {
 			products: { type: Array, required: true },
@@ -9,5 +9,3 @@ class CartsDaoMongo extends MongoContainer {
 		});
 	}
 }
-
-export default CartsDaoMongo;

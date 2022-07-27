@@ -4,7 +4,7 @@ export const postCart = (req, res) => {
 	cartsServicesMongo
 		.postCart()
 		.then((cart) => {
-			res.status(201).json(cart);
+			res.status(201).json({ message: 'Cart created successfully' });
 		})
 		.catch((err) => {
 			res.status(500).json({ message: err });
