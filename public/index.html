@@ -6,8 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Websocket</title>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"
+			defer
+		></script>
 		<script src="/socket.io/socket.io.js" defer></script>
-		<script src="./client.js" defer></script>
+		<script src="../client.js" defer></script>
 	</head>
 	<body>
 		<form id="productForm">
@@ -26,10 +30,14 @@
 		<div id="root"></div>
 		<hr />
 		<form id="chatForm">
-			<input id="chatEmail" type="email" placeholder="Email" required />
+			<input id="chatName" type="text" placeholder="Name" required />
 			<input id="chatMessage" type="text" placeholder="Mensaje" required />
 			<button>Enviar</button>
 		</form>
+		<br />
+		<h2>
+			Porcentaje de optimizacion: <span id="optimizationPercentaje"></span>
+		</h2>
 		<br />
 		<div id="chat"></div>
 	</body>

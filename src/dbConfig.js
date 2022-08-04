@@ -20,5 +20,7 @@ const configSQLite3 = {
 
 const dbConnectionMySQL = knex(configMySQL);
 const dbConnectionSQLite = knex(configSQLite3);
+const dbConnectionMongo =
+	'mongodb+srv://luka:luka1234@cluster0.9slvdpx.mongodb.net/codersocket?retryWrites=true&w=majority';
 
-module.exports = { dbConnectionMySQL, dbConnectionSQLite };
+module.exports = { dbConnectionMySQL, dbConnectionSQLite, dbConnectionMongo };

@@ -6,6 +6,10 @@ const productThumbnail = document.getElementById('productThumbnail');
 const chatForm = document.getElementById('chatForm');
 const chatEmail = document.getElementById('chatEmail');
 const chatMessage = document.getElementById('chatMessage');
+const chatName = document.getElementById('chatName');
+const optimizationPercentaje = document.getElementById(
+	'optimizationPercentaje'
+);
 
 async function renderProducts(products) {
 	const response = await fetch('/template.hbs');
@@ -18,9 +22,11 @@ async function renderProducts(products) {
 	});
 }
 
-socket.on('server:products', (products) => {
+socket.on('server:products-test', async (products) => {
 	document.getElementById('root').innerHTML = '';
-	renderProducts(products);
+	const data = await fetch('http://localhost:8080/api/productos-test'); // * Hago el fetch porque la consigna pide que consuma la ruta /api/productos-test
+	const json = await data.json();
+	renderProducts(json);
 });
 
 productForm.addEventListener('submit', (e) => {
@@ -52,20 +58,71 @@ async function renderMessages(messages) {
 
 socket.on('server:messages', (messages) => {
 	document.getElementById('chat').innerHTML = '';
-	renderMessages(messages);
+	const denormalizedMessages = denormalizeMensajes(messages);
+	optimizationPercentaje.innerHTML =
+		denormalizedMessages.optimizationPercentage + '%';
+
+	const messagesFormated = denormalizedMessages.denormalizedMessages.map(
+		(message) => {
+			return {
+				text: message.text,
+				name: message.author.name,
+				avatar: message.author.avatar,
+			};
+		}
+	);
+
+	renderMessages(messagesFormated);
 });
 
 chatForm.addEventListener('submit', (e) => {
 	e.preventDefault();
 
+	// * Los valores los puse por default para que no sea un embole probarlo
 	const message = {
-		email: chatEmail.value,
-		date:
-			new Date().toLocaleDateString() + ' ' + new Date().toLocaleTimeString(),
-		message: chatMessage.value,
+		author: {
+			id: Math.random(),
+			name: chatName.value,
+			surname: 'Prueba',
+			age: 20,
+			alias: 'lukita',
+			avatar: 'https://i.pravatar.cc/30',
+		},
+		text: chatMessage.value,
 	};
 
 	socket.emit('client:newMessage', message);
-
-	chatMessage.value = '';
 });
+
+function denormalizeMensajes(messagesObj) {
+	const author = new normalizr.schema.Entity('author');
+
+	const message = new normalizr.schema.Entity(
+		'message',
+		{ author: author },
+		{ idAttribute: '_id' }
+	);
+
+	const messagesSchema = new normalizr.schema.Entity('messages', {
+		messages: [message],
+	});
+
+	const denormalized = normalizr.denormalize(
+		messagesObj.result,
+		messagesSchema,
+		messagesObj.entities
+	);
+
+	const normalizedLength = JSON.stringify(messagesSchema).length;
+	const denormalizedLength = JSON.stringify(denormalized).length;
+	const optimizationPercentage = (
+		100 -
+		(normalizedLength * 100) / denormalizedLength
+	).toFixed(2);
+
+	const denormalizedMessages = denormalized.messages.map(
+		(message) => message._doc
+	);
+
+	return { denormalizedMessages, optimizationPercentage };
+}
