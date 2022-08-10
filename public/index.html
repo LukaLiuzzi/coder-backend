@@ -14,31 +14,47 @@
 		<script src="../client.js" defer></script>
 	</head>
 	<body>
-		<form id="productForm">
-			<legend><strong>Agregar producto</strong></legend>
-			<input id="productTitle" type="text" placeholder="Titulo" required />
-			<input id="productPrice" type="number" placeholder="Precio" required />
-			<input
-				id="productThumbnail"
-				type="text"
-				placeholder="URL imagen"
-				required
-			/>
-			<button>Agregar</button>
-		</form>
-		<hr />
-		<div id="root"></div>
-		<hr />
-		<form id="chatForm">
-			<input id="chatName" type="text" placeholder="Name" required />
-			<input id="chatMessage" type="text" placeholder="Mensaje" required />
-			<button>Enviar</button>
-		</form>
+		<div id="login" style="display: flex; justify-content: center">
+			<form id="loginForm">
+				<input
+					id="usernameForm"
+					type="text"
+					name="username"
+					placeholder="username"
+				/>
+				<button type="submit">Entrar</button>
+			</form>
+		</div>
 		<br />
-		<h2>
-			Porcentaje de optimizacion: <span id="optimizationPercentaje"></span>
-		</h2>
 		<br />
-		<div id="chat"></div>
+		<br />
+		<div id="app">
+			<form id="productForm">
+				<legend><strong>Agregar producto</strong></legend>
+				<input id="productTitle" type="text" placeholder="Titulo" required />
+				<input id="productPrice" type="number" placeholder="Precio" required />
+				<input
+					id="productThumbnail"
+					type="text"
+					placeholder="URL imagen"
+					required
+				/>
+				<button>Agregar</button>
+			</form>
+			<hr />
+			<div id="root"></div>
+			<hr />
+			<form id="chatForm">
+				<input id="chatName" type="text" placeholder="Name" required />
+				<input id="chatMessage" type="text" placeholder="Mensaje" required />
+				<button>Enviar</button>
+			</form>
+			<br />
+			<h2>
+				Porcentaje de optimizacion: <span id="optimizationPercentaje"></span>
+			</h2>
+			<br />
+			<div id="chat"></div>
+		</div>
 	</body>
 </html>

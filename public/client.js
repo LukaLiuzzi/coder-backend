@@ -10,6 +10,12 @@ const chatName = document.getElementById('chatName');
 const optimizationPercentaje = document.getElementById(
 	'optimizationPercentaje'
 );
+const login = document.getElementById('login');
+const loginForm = document.getElementById('loginForm');
+const usernameForm = document.getElementById('usernameForm');
+const app = document.getElementById('app');
+const chat = document.getElementById('chat');
+const root = document.getElementById('root');
 
 async function renderProducts(products) {
 	const response = await fetch('/template.hbs');
@@ -18,12 +24,16 @@ async function renderProducts(products) {
 	products.forEach((product) => {
 		const template = Handlebars.compile(plantilla);
 		const html = template(product);
-		document.getElementById('root').innerHTML += html;
+		if (root) {
+			root.innerHTML += html;
+		}
 	});
 }
 
 socket.on('server:products-test', async (products) => {
-	document.getElementById('root').innerHTML = '';
+	if (root) {
+		root.innerHTML = '';
+	}
 	const data = await fetch('http://localhost:8080/api/productos-test'); // * Hago el fetch porque la consigna pide que consuma la ruta /api/productos-test
 	const json = await data.json();
 	renderProducts(json);
@@ -51,13 +61,17 @@ async function renderMessages(messages) {
 		messages.forEach((message) => {
 			const template = Handlebars.compile(plantilla);
 			const html = template(message);
-			document.getElementById('chat').innerHTML += html;
+			if (chat) {
+				chat.innerHTML += html;
+			}
 		});
 	}
 }
 
 socket.on('server:messages', (messages) => {
-	document.getElementById('chat').innerHTML = '';
+	if (chat) {
+		chat.innerHTML = '';
+	}
 	const denormalizedMessages = denormalizeMensajes(messages);
 	optimizationPercentaje.innerHTML =
 		denormalizedMessages.optimizationPercentage + '%';
@@ -126,3 +140,49 @@ function denormalizeMensajes(messagesObj) {
 
 	return { denormalizedMessages, optimizationPercentage };
 }
+
+// * Login
+loginForm.addEventListener('submit', (e) => {
+	e.preventDefault();
+
+	const username = usernameForm.value;
+
+	fetch(`/login?username=${username}`).then((response) => {
+		if (response.status === 200) {
+			window.location.href = '/';
+		} else {
+			console.log('Usuario no encontrado');
+		}
+	});
+});
+
+fetch(`/logged`)
+	.then((response) => response.json())
+	.then((data) => {
+		if (data.status === 'ok') {
+			login.innerHTML = `<h1>Bienvenido ${data.user}</h1>`;
+
+			const button = document.createElement('button');
+			button.innerHTML = 'Cerrar Sesión';
+			button.addEventListener('click', () => {
+				fetch(`/logout`).then((response) => {
+					if (response.status === 200) {
+						app.innerHTML = '';
+						login.innerHTML = `<h1>Hasta luego ${data.user} </h1>`;
+						setTimeout(() => {
+							window.location.href = '/';
+						}, 2000);
+					}
+				});
+			});
+			login.appendChild(button);
+		}
+	});
+
+fetch(`/logged`)
+	.then((response) => response.json())
+	.then((data) => {
+		if (data.status !== 'ok') {
+			app.innerHTML = '';
+		}
+	});
