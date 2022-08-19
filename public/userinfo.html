@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Info de usuario</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container text-center my-3">
+			<div class="jumbotron" style="background-color: green; color: white">
+				<h1>Usuario logueado!</h1>
+				<h2>
+					<i>Bienvenido <span id="userUsername"></span></i>
+				</h2>
+				<br />
+				<h3>Nombre: <span id="userName"></span></h3>
+				<h3>Apellido: <span id="userSurname"></span></h3>
+				<h3>Email: <span id="userEmail"></span></h3>
+				<button class="btn btn-danger my-5" id="userLogout">
+					Cerrar sesion
+				</button>
+			</div>
+		</div>
+	</body>
+	<script>
+		const userUsername = document.getElementById('userUsername');
+		const userName = document.getElementById('userName');
+		const userSurname = document.getElementById('userSurname');
+		const userEmail = document.getElementById('userEmail');
+		const userLogout = document.getElementById('userLogout');
+		fetch(`/login`)
+			.then((response) => response.json())
+			.then((data) => {
+				if (data.status === 'ok') {
+					userUsername.innerHTML = data.user.username;
+					userName.innerHTML = data.user.firstName;
+					userSurname.innerHTML = data.user.lastName;
+					userEmail.innerHTML = data.user.email;
+
+					userLogout.addEventListener('click', () => {
+						fetch(`/logout`)
+							.then((response) => response.json())
+							.then((data) => {
+								if (data.status === 'ok') {
+									window.location.href = '/';
+								}
+							});
+					});
+				} else {
+					window.location.href = '/login';
+				}
+			});
+	</script>
+</html>

@@ -16,6 +16,11 @@ const usernameForm = document.getElementById('usernameForm');
 const app = document.getElementById('app');
 const chat = document.getElementById('chat');
 const root = document.getElementById('root');
+const userUsername = document.getElementById('userUsername');
+const userName = document.getElementById('userName');
+const userSurname = document.getElementById('userSurname');
+const userEmail = document.getElementById('userEmail');
+const userLogout = document.getElementById('userLogout');
 
 async function renderProducts(products) {
 	const response = await fetch('/template.hbs');
@@ -184,5 +189,22 @@ fetch(`/logged`)
 	.then((data) => {
 		if (data.status !== 'ok') {
 			app.innerHTML = '';
+		}
+	});
+
+// * LOGIN WITH PASSPORT
+fetch(`/login`)
+	.then((response) => response.json())
+	.then((data) => {
+		if (data.status === 200) {
+			console.log(data);
+			userUsername.innerHTML = data.user;
+			userName.innerHTML = data.name;
+			userSurname.innerHTML = data.surname;
+			userEmail.innerHTML = data.email;
+
+			userLogout.addEventListener('click', () => {
+				fetch(`/logout`);
+			});
 		}
 	});

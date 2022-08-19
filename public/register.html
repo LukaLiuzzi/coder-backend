@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Login</title>
+		<title>Registro</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -16,7 +16,7 @@
 	<body>
 		<div class="container my-5">
 			<div class="jumbotron">
-				<h1>SIGNUP</h1>
+				<h1>REGISTRO</h1>
 				<br />
 				<form
 					class="form"
@@ -77,10 +77,29 @@
 					</div>
 
 					<div class="form-group">
-						<input class="btn btn-success my-3" type="submit" value="Singup" />
+						<input
+							class="btn btn-success my-3"
+							type="submit"
+							value="Registrarse"
+						/>
 					</div>
 				</form>
+				<hr />
+				<div class="text-center"></div>
+				<button class="btn btn-success my-3" onclick="goLogin()">
+					Loguearse
+				</button>
 			</div>
 		</div>
+
+		<script>
+			function redireccionar(pagina) {
+				location.href = pagina;
+			}
+
+			function goLogin() {
+				redireccionar('/login');
+			}
+		</script>
 	</body>
 </html>

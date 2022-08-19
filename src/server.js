@@ -23,13 +23,16 @@ const products = new Container(dbConnectionMySQL, 'products');
 // * Cookies and Sessions
 const mongoOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use(
 	session({
 		secret: 'coderhouse',
 		cookie: {
 			httpOnly: false,
 			secure: false,
-			maxAge: 20000,
+			maxAge: 600000,
 		},
 		rolling: true,
 		resave: false,
@@ -41,7 +44,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // * Render views
-app.use(express.static(path.join(__dirname, '../public')));
+// app.use(express.static(path.join(__dirname, '../public')));
 
 // * Main routes
 app.use('/api/productos-test', productsTest);
@@ -134,6 +137,7 @@ const chat = new Chat('chats', {
 app.get('/login', (req, res) => {
 	if (req.isAuthenticated()) {
 		const user = req.user;
+		res.status(200).json({ user, status: 'ok' });
 	} else {
 		res.sendFile(path.join(__dirname, '../public/login.html'));
 	}
@@ -176,8 +180,21 @@ app.get('/failregister', (req, res) => {
 
 // * Logout routes
 app.get('/logout', (req, res) => {
-	req.logout();
-	res.redirect('/login');
+	req.logout((err) => {
+		if (err) {
+			return next(err);
+		}
+	});
+	res.json({ status: 'ok' });
+});
+
+// * ==============
+app.get('/', (req, res) => {
+	if (req.isAuthenticated()) {
+		res.sendFile(path.join(__dirname, '../public/userinfo.html'));
+	} else {
+		res.sendFile(path.join(__dirname, '../public/login.html'));
+	}
 });
 
 app.get('*', (req, res) => {
