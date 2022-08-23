@@ -1,5 +1,6 @@
 const knex = require('knex');
 const path = require('path');
+require('dotenv').config();
 
 const configMySQL = {
 	client: 'mysql',
@@ -20,7 +21,6 @@ const configSQLite3 = {
 
 const dbConnectionMySQL = knex(configMySQL);
 const dbConnectionSQLite = knex(configSQLite3);
-const dbConnectionMongo =
-	'mongodb+srv://luka:luka1234@cluster0.9slvdpx.mongodb.net/codersocket?retryWrites=true&w=majority';
+const dbConnectionMongo = process.env.MONGO_URL;
 
 module.exports = { dbConnectionMySQL, dbConnectionSQLite, dbConnectionMongo };
