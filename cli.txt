@@ -1,0 +1,10 @@
+forever start src/server.js -- -m cluster
+forever list
+tasklist
+forever start -w src/server.js -- -m cluster
+
+pm2 start src/server.js
+pm2 start src/server.js -i max
+pm2 list
+tasklist
+pm2 start src/server.js --watch

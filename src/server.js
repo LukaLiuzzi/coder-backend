@@ -19,13 +19,41 @@ const registerStrategy = require('./passport/register');
 const loginStrategy = require('./passport/login');
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
-const argv = yargs(hideBin(process.argv)).default({ port: 8080 }).alias({
-	p: 'port',
-}).argv;
+const argv = yargs(hideBin(process.argv))
+	.default({ port: 8080, mode: 'fork' })
+	.alias({
+		p: 'port',
+		m: 'mode',
+	}).argv;
+const cluster = require('cluster');
+const os = require('os');
 
-const expressServer = app.listen(argv.port, () =>
-	console.log('Server is running on port ' + argv.port)
-);
+let expressServer;
+
+app.get('/test', (req, res) => {
+	console.log('worker: ' + process.pid);
+	for (let i = 0; i < 1e9; i++) {
+		i + 1;
+	}
+
+	res.send('ok');
+});
+if (argv.mode === 'cluster' && cluster.isPrimary) {
+	const threads = os.cpus();
+
+	threads.map(() => cluster.fork());
+
+	cluster.on('exit', (worker, code, signal) => {
+		console.log(`worker ${worker.process.pid} died`);
+		cluster.fork();
+	});
+} else {
+	expressServer = app.listen(argv.port, () =>
+		console.log(
+			`Server is running on port ${argv.port} - worker: ${process.pid}`
+		)
+	);
+}
 
 const io = new IOServer(expressServer);
 const products = new Container(dbConnectionMySQL, 'products');

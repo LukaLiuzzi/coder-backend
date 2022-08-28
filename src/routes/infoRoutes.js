@@ -1,5 +1,6 @@
 const { Router } = require('express');
 const router = Router();
+const os = require('os');
 
 router.get('/', (req, res) => {
 	res.json({
@@ -10,6 +11,7 @@ router.get('/', (req, res) => {
 		execution_path: process.execPath,
 		process_id: process.pid,
 		process_folder: process.cwd(),
+		server_processors: os.cpus().length,
 	});
 });
 
