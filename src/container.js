@@ -1,3 +1,5 @@
+const { logger } = require('./logger');
+
 class Container {
 	constructor(knexConfig, table) {
 		this.knexConfig = knexConfig;
@@ -8,7 +10,7 @@ class Container {
 		try {
 			await this.knexConfig(this.table).insert(obj);
 		} catch (err) {
-			console.error(err);
+			logger.error(err);
 			return null;
 		}
 	}
@@ -20,8 +22,8 @@ class Container {
 				.select('*')
 				.where('id', '=', id);
 			return product;
-		} catch (error) {
-			console.error(error);
+		} catch (err) {
+			logger.error(err);
 			return null;
 		}
 	}
@@ -31,7 +33,7 @@ class Container {
 			const products = await this.knexConfig.from(this.table).select('*');
 			return products;
 		} catch (err) {
-			console.error(err);
+			logger.error(err);
 			return null;
 		}
 	}
@@ -40,7 +42,7 @@ class Container {
 		try {
 			await this.knexConfig(this.table).where('id', '=', id).del();
 		} catch (err) {
-			console.error(err);
+			logger.error(err);
 		}
 	}
 
@@ -48,7 +50,7 @@ class Container {
 		try {
 			await this.knexConfig(this.table).del();
 		} catch (err) {
-			console.error(err);
+			logger.error(err);
 		}
 	}
 }

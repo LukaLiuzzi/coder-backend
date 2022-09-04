@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const session = require('express-session');
+const compression = require('compression');
 const productsTest = require('./routes/productsTest');
 const randomNumbers = require('./routes/randomNumbers');
 const loginRoutes = require('./routes/loginRoutes');
@@ -27,6 +28,11 @@ const argv = yargs(hideBin(process.argv))
 	}).argv;
 const cluster = require('cluster');
 const os = require('os');
+const {
+	logRequests,
+	logInexistentRoutes,
+} = require('./middlewares/logRequests');
+const { logger } = require('./logger');
 
 let expressServer;
 
@@ -36,12 +42,12 @@ if (argv.mode === 'cluster' && cluster.isPrimary) {
 	threads.map(() => cluster.fork());
 
 	cluster.on('exit', (worker, code, signal) => {
-		console.log(`worker ${worker.process.pid} died`);
+		logger.info(`worker ${worker.process.pid} died`);
 		cluster.fork();
 	});
 } else {
 	expressServer = app.listen(argv.port, () =>
-		console.log(
+		logger.info(
 			`Server is running on port ${argv.port} - worker: ${process.pid}`
 		)
 	);
@@ -66,10 +72,12 @@ app.use(
 );
 
 // * Middlewares
+app.use(compression());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(logRequests);
 
 // * Routes
 app.use('/api/productos-test', productsTest);
@@ -85,9 +93,7 @@ app.get('/', (req, res) => {
 	}
 });
 
-app.get('*', (req, res) => {
-	res.status(404).send('404 - Ruta no encontrada');
-});
+app.get('*', logInexistentRoutes);
 
 // * Passport
 passport.use('register', registerStrategy);
@@ -116,7 +122,7 @@ const chat = new Chat('chats', {
 
 // * Socket
 io.on('connection', async (socket) => {
-	console.log('New user conected ' + socket.id);
+	logger.info('New user conected ' + socket.id);
 
 	const normalizedMessages = normalizeMsg(await chat.getAll());
 

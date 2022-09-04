@@ -53,8 +53,6 @@ productForm.addEventListener('submit', (e) => {
 		thumbnail: productThumbnail.value,
 	};
 
-	console.log(product);
-
 	socket.emit('client:addProduct', product);
 });
 

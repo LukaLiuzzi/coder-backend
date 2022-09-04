@@ -1,4 +1,5 @@
 const { dbConnectionMySQL, dbConnectionSQLite } = require('../dbConfig');
+const { logger } = require('../logger');
 
 async function CreateDbTables() {
 	try {
@@ -23,8 +24,8 @@ async function CreateDbTables() {
 		});
 
 		dbConnectionSQLite.destroy();
-	} catch (error) {
-		console.error(error);
+	} catch (err) {
+		logger.error(err);
 	}
 }
 

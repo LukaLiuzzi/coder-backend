@@ -1,3 +1,4 @@
+const logger = require('./logger');
 class Chat {
 	constructor(knexConfig, table) {
 		this.knexConfig = knexConfig;
@@ -8,7 +9,7 @@ class Chat {
 		try {
 			await this.knexConfig(this.table).insert(obj);
 		} catch (err) {
-			console.error(err);
+			logger.error(err);
 			return null;
 		}
 	}
@@ -18,7 +19,7 @@ class Chat {
 			const messages = await this.knexConfig.from(this.table).select('*');
 			return messages;
 		} catch (err) {
-			console.error(err);
+			logger.error(err);
 			return null;
 		}
 	}
