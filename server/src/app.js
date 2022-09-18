@@ -23,7 +23,7 @@ app.use(
 		cookie: {
 			httpOnly: false,
 			secure: false,
-			maxAge: 20000,
+			maxAge: 60000,
 		},
 		rolling: true,
 		resave: false,
@@ -44,14 +44,6 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser((id, done) => {
 	UserModel.findById(id, done);
 });
-
-function checkAuthentication(req, res, next) {
-	if (req.isAuthenticated()) {
-		next();
-	} else {
-		res.status(401).json({ message: 'Not authenticated' });
-	}
-}
 
 app.use('/api/auth/login', loginRouter);
 app.use('/api/auth/register', registerRouter);
