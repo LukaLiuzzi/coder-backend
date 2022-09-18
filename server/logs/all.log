@@ -224,3 +224,34 @@
 2022-09-18 16:46:24:4624 [37mdebug[39m: [37mServer is running on port 8080[39m
 2022-09-18 16:47:00:470 [37mdebug[39m: [37mConnected to DB[39m
 2022-09-18 16:47:00:470 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:54:25:5425 [31merror[39m: [31mCannot read properties of undefined (reading 'path')[39m
+2022-09-18 17:19:52:1952 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:19:52:1952 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:34:09:349 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:34:09:349 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:34:36:3436 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:34:36:3436 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:34:46:3446 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:34:46:3446 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:34:57:3457 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:34:57:3457 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:35:10:3510 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:35:10:3510 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:35:26:3526 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:35:26:3526 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:35:30:3530 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:35:30:3530 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:35:46:3546 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:35:46:3546 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:36:39:3639 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:36:39:3639 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:38:13:3813 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:38:13:3813 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:41:13:4113 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:41:13:4113 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:41:41:4141 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:41:41:4141 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:43:29:4329 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:43:29:4329 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 17:43:54:4354 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 17:43:54:4354 [37mdebug[39m: [37mServer is running on port 8080[39m

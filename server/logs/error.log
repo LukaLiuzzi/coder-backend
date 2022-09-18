@@ -8,3 +8,4 @@
 2022-09-18 16:19:29:1929 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
 2022-09-18 16:19:43:1943 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
 2022-09-18 16:19:50:1950 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
+2022-09-18 16:54:25:5425 [31merror[39m: [31mCannot read properties of undefined (reading 'path')[39m

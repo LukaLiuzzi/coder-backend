@@ -7,12 +7,14 @@ import session from 'express-session';
 import { loginRouter } from './routes/login.routes.js';
 import { registerRouter } from './routes/register.routes.js';
 import cors from 'cors';
+import { logoutRouter } from './routes/logout.routes.js';
 
 const app = express();
 // * MIDDLEWARES
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+app.use(express.static('avatars'));
 
 app.use(
 	session({
@@ -52,5 +54,6 @@ function checkAuthentication(req, res, next) {
 
 app.use('/api/auth/login', loginRouter);
 app.use('/api/auth/register', registerRouter);
+app.use('/api/auth/logout', logoutRouter);
 
 export { app };

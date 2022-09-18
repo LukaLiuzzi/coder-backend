@@ -20,7 +20,7 @@ export default function LoginForm() {
 				password: formData.password,
 			})
 			.then((res) => {
-				setUser(res.data);
+				setUser(res.data.user);
 				navigate('/');
 			})
 			.catch((err) => {
