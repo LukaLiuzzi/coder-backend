@@ -3,3 +3,8 @@
 2022-09-18 02:37:23:3723 [31merror[39m: [31mError registrando usuario users validation failed: avatar: Path `avatar` is required., age: Path `age` is required., phone: Path `phone` is required., address: Path `address` is required., name: Path `name` is required.[39m
 2022-09-18 02:38:27:3827 [31merror[39m: [31mError registrando usuario users validation failed: avatar: Path `avatar` is required., age: Path `age` is required., phone: Path `phone` is required., address: Path `address` is required., name: Path `name` is required.[39m
 2022-09-18 02:39:21:3921 [31merror[39m: [31mUser is not defined[39m
+2022-09-18 16:01:01:11 [31merror[39m: [31mCannot read properties of undefined (reading 'avatar')[39m
+2022-09-18 16:04:03:43 [31merror[39m: [31musers validation failed: avatar: Path `avatar` is required.[39m
+2022-09-18 16:19:29:1929 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
+2022-09-18 16:19:43:1943 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
+2022-09-18 16:19:50:1950 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m

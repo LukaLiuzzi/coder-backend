@@ -1,7 +1,6 @@
 const postRegister = (req, res) => {
 	const user = req.user;
-	console.log(req.user);
-	delete user.password;
+	user.password = '*************';
 	res.json({
 		user,
 	});

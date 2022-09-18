@@ -20,7 +20,7 @@ const registerStrategy = new LocalStrategy(
 				address: req.body.address,
 				phone: req.body.phone,
 				age: req.body.age,
-				avatar: req.body.avatar,
+				avatar: req.file.path,
 			};
 
 			const createdUser = await UserModel.create(newUser);

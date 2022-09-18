@@ -6,8 +6,8 @@ import { UserModel } from './models/user.model.js';
 import session from 'express-session';
 import { loginRouter } from './routes/login.routes.js';
 import { registerRouter } from './routes/register.routes.js';
-const app = express();
 
+const app = express();
 // * MIDDLEWARES
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

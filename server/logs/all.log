@@ -155,3 +155,52 @@
 2022-09-18 02:41:17:4117 [37mdebug[39m: [37mServer is running on port 8080[39m
 2022-09-18 02:41:55:4155 [37mdebug[39m: [37mConnected to DB[39m
 2022-09-18 02:41:55:4155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:00:59:059 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:00:59:059 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:01:01:11 [31merror[39m: [31mCannot read properties of undefined (reading 'avatar')[39m
+2022-09-18 16:04:03:43 [31merror[39m: [31musers validation failed: avatar: Path `avatar` is required.[39m
+2022-09-18 16:05:56:556 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:05:56:556 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:06:07:67 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:06:07:67 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:06:10:610 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:06:10:610 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:06:14:614 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:06:14:614 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:06:55:655 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:06:55:655 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:08:13:813 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:08:13:813 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:08:21:821 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:08:21:821 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:08:51:851 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:08:51:851 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:09:48:948 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:09:48:948 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:11:26:1126 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:11:26:1126 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:12:17:1217 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:12:17:1217 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:14:22:1422 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:14:22:1422 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:14:56:1456 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:14:56:1456 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:15:14:1514 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:15:14:1514 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:15:27:1527 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:15:27:1527 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:18:31:1831 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:18:31:1831 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:19:29:1929 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
+2022-09-18 16:19:43:1943 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
+2022-09-18 16:19:50:1950 [31merror[39m: [31mE11000 duplicate key error collection: coderecommerce.users index: username_1 dup key: { username: null }[39m
+2022-09-18 16:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:24:02:242 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:24:02:242 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:24:25:2425 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:24:25:2425 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:24:49:2449 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:24:49:2449 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 16:25:47:2547 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 16:25:47:2547 [37mdebug[39m: [37mServer is running on port 8080[39m
