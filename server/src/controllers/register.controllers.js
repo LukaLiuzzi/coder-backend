@@ -1,6 +1,6 @@
 const postRegister = (req, res) => {
 	const user = req.user;
-	user.password = '*************';
+	user.password = undefined;
 	res.json({
 		user,
 	});

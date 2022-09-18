@@ -1,9 +1,32 @@
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+import { useState } from 'react';
 
 export default function LoginForm() {
+	const [formData, setFormData] = useState({
+		email: '',
+		password: '',
+	});
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+
+		axios
+			.post('http://localhost:8080/api/auth/login', {
+				email: formData.email,
+				password: formData.password,
+			})
+			.then((res) => {
+				console.log(res);
+			})
+			.catch((err) => {
+				console.log(err);
+			});
+	};
+
 	return (
 		<section className='bg-gray-50 dark:bg-gray-900'>
-			<div className='flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0'>
+			<div className='flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen lg:py-0'>
 				<span className='my-4 text-3xl font-bold text-white'>
 					Ecommerce CoderHouse
 				</span>
@@ -12,7 +35,7 @@ export default function LoginForm() {
 						<h1 className='text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white'>
 							Loguearse
 						</h1>
-						<form className='space-y-4 md:space-y-6' action='#'>
+						<form className='space-y-4 md:space-y-6' onSubmit={handleSubmit}>
 							<div>
 								<label
 									htmlFor='email'
@@ -27,6 +50,14 @@ export default function LoginForm() {
 									className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 									placeholder='luka@gmail.com'
 									required={true}
+									autoComplete='on'
+									onChange={(e) =>
+										setFormData({
+											...formData,
+											[e.target.name]: e.target.value,
+										})
+									}
+									value={formData.email}
 								/>
 							</div>
 							<div>
@@ -43,6 +74,14 @@ export default function LoginForm() {
 									placeholder='••••••••'
 									className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 									required={true}
+									autoComplete='on'
+									onChange={(e) =>
+										setFormData({
+											...formData,
+											[e.target.name]: e.target.value,
+										})
+									}
+									value={formData.password}
 								/>
 							</div>
 							<button

@@ -6,11 +6,13 @@ import { UserModel } from './models/user.model.js';
 import session from 'express-session';
 import { loginRouter } from './routes/login.routes.js';
 import { registerRouter } from './routes/register.routes.js';
+import cors from 'cors';
 
 const app = express();
 // * MIDDLEWARES
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 app.use(
 	session({
@@ -48,7 +50,7 @@ function checkAuthentication(req, res, next) {
 	}
 }
 
-app.use('/api/login', loginRouter);
-app.use('/api/register', registerRouter);
+app.use('/api/auth/login', loginRouter);
+app.use('/api/auth/register', registerRouter);
 
 export { app };

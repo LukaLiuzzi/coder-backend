@@ -12,7 +12,12 @@ export default function RegisterForm() {
 						<h1 className='text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white'>
 							Crear una cuenta
 						</h1>
-						<form className='space-y-4 md:space-y-6' action='#'>
+						<form
+							className='space-y-4 md:space-y-6'
+							enctype='multipart/form-data'
+							method='POST'
+							action='http://localhost:8080/api/auth/register'
+						>
 							<div>
 								<label
 									htmlFor='email'
