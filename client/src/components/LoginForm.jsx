@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useState } from 'react';
+import { useUserContext } from '../context/UserContext';
 
 export default function LoginForm() {
+	const navigate = useNavigate();
+	const { setUser } = useUserContext();
 	const [formData, setFormData] = useState({
 		email: '',
 		password: '',
@@ -17,7 +20,8 @@ export default function LoginForm() {
 				password: formData.password,
 			})
 			.then((res) => {
-				console.log(res);
+				setUser(res.data);
+				navigate('/');
 			})
 			.catch((err) => {
 				console.log(err);

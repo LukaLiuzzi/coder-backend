@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 export default function RegisterForm() {
+	const navigate = useNavigate();
 	const [formData, setFormData] = useState({
 		email: '',
 		password: '',
@@ -28,7 +29,7 @@ export default function RegisterForm() {
 		axios
 			.post('http://localhost:8080/api/auth/register', data)
 			.then((res) => {
-				console.log(res);
+				navigate('/login');
 			})
 			.catch((err) => {
 				console.log(err);
