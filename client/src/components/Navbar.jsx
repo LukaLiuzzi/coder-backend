@@ -1,12 +1,13 @@
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { BASE_API_URL } from '../config';
 
 export default function Navbar({ user }) {
 	const navigate = useNavigate();
 	const handleLogout = () => {
 		localStorage.removeItem('user');
 		axios
-			.get('http://localhost:8080/api/auth/logout')
+			.get(`${BASE_API_URL}/auth/logout`)
 			.then((res) => {
 				navigate('/login');
 			})
@@ -77,44 +78,12 @@ export default function Navbar({ user }) {
 								</Link>
 							</li>
 							<li>
-								<a
-									href='#'
+								<Link
+									to={'/cart'}
 									className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700'
 								>
-									Company
-								</a>
-							</li>
-							<li>
-								<a
-									href='#'
-									className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700'
-								>
-									Marketplace
-								</a>
-							</li>
-							<li>
-								<a
-									href='#'
-									className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700'
-								>
-									Features
-								</a>
-							</li>
-							<li>
-								<a
-									href='#'
-									className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700'
-								>
-									Team
-								</a>
-							</li>
-							<li>
-								<a
-									href='#'
-									className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700'
-								>
-									Contact
-								</a>
+									Carrito
+								</Link>
 							</li>
 						</ul>
 					</div>

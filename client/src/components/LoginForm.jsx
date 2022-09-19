@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useState } from 'react';
 import { useUserContext } from '../context/UserContext';
+import { BASE_API_URL } from '../config';
 
 export default function LoginForm() {
 	const navigate = useNavigate();
@@ -15,7 +16,7 @@ export default function LoginForm() {
 		e.preventDefault();
 
 		axios
-			.post('http://localhost:8080/api/auth/login', {
+			.post(`${BASE_API_URL}/auth/login`, {
 				email: formData.email,
 				password: formData.password,
 			})

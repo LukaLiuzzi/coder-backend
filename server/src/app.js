@@ -9,6 +9,7 @@ import { registerRouter } from './routes/register.routes.js';
 import cors from 'cors';
 import { logoutRouter } from './routes/logout.routes.js';
 import { productsRouter } from './routes/products.routes.js';
+import { cartRouter } from './routes/cart.routes.js';
 
 const app = express();
 // * MIDDLEWARES
@@ -23,7 +24,7 @@ app.use(
 		cookie: {
 			httpOnly: false,
 			secure: false,
-			maxAge: 60000,
+			maxAge: 1000 * 60 * 60 * 24 * 7,
 		},
 		rolling: true,
 		resave: false,
@@ -49,5 +50,6 @@ app.use('/api/auth/login', loginRouter);
 app.use('/api/auth/register', registerRouter);
 app.use('/api/auth/logout', logoutRouter);
 app.use('/api/products', productsRouter);
+app.use('/api/cart', cartRouter);
 
 export { app };

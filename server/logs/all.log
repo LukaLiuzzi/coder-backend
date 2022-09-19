@@ -329,3 +329,1842 @@
 2022-09-18 19:59:07:597 [37mdebug[39m: [37mServer is running on port 8080[39m
 2022-09-18 20:02:45:245 [37mdebug[39m: [37mConnected to DB[39m
 2022-09-18 20:02:45:245 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:52:13:5213 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:52:13:5213 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:55:11:5511 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:55:11:5511 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:55:14:5514 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:55:14:5514 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:55:33:5533 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:55:33:5533 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:55:48:5548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:55:48:5548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:56:06:566 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:56:06:566 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:56:13:5613 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:56:13:5613 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:56:18:5618 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:56:18:5618 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 20:59:03:593 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 20:59:03:593 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:00:10:010 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:00:10:010 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:00:16:016 [31merror[39m: [31mreq is not defined[39m
+2022-09-18 21:00:21:021 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:00:21:021 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:05:56:556 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:05:56:556 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:06:22:622 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:06:22:622 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:06:30:630 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:06:30:630 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:06:49:649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:06:49:649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:07:02:72 [31merror[39m: [31mCast to string failed for value "<ref *2> IncomingMessage {[39m
+[31m  _readableState: ReadableState {[39m
+[31m    objectMode: false,[39m
+[31m    highWaterMark: 16384,[39m
+[31m    buffer: BufferList { head: null, tail: null, length: 0 },[39m
+[31m    length: 0,[39m
+[31m    pipes: [],[39m
+[31m    flowing: true,[39m
+[31m    ended: true,[39m
+[31m    endEmitted: true,[39m
+[31m    reading: false,[39m
+[31m    constructed: true,[39m
+[31m    sync: false,[39m
+[31m    needReadable: false,[39m
+[31m    emittedReadable: false,[39m
+[31m    readableListening: false,[39m
+[31m    resumeScheduled: false,[39m
+[31m    errorEmitted: false,[39m
+[31m    emitClose: true,[39m
+[31m    autoDestroy: true,[39m
+[31m    destroyed: true,[39m
+[31m    errored: null,[39m
+[31m    closed: true,[39m
+[31m    closeEmitted: true,[39m
+[31m    defaultEncoding: 'utf8',[39m
+[31m    awaitDrainWriters: null,[39m
+[31m    multiAwaitDrain: false,[39m
+[31m    readingMore: false,[39m
+[31m    dataEmitted: true,[39m
+[31m    decoder: null,[39m
+[31m    encoding: null,[39m
+[31m    [Symbol(kPaused)]: false[39m
+[31m  },[39m
+[31m  _events: [Object: null prototype] {},[39m
+[31m  _eventsCount: 0,[39m
+[31m  _maxListeners: undefined,[39m
+[31m  socket: <ref *1> Socket {[39m
+[31m    connecting: false,[39m
+[31m    _hadError: false,[39m
+[31m    _parent: null,[39m
+[31m    _host: null,[39m
+[31m    _readableState: ReadableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      buffer: BufferList { head: null, tail: null, length: 0 },[39m
+[31m      length: 0,[39m
+[31m      pipes: [],[39m
+[31m      flowing: true,[39m
+[31m      ended: false,[39m
+[31m      endEmitted: false,[39m
+[31m      reading: true,[39m
+[31m      constructed: true,[39m
+[31m      sync: false,[39m
+[31m      needReadable: true,[39m
+[31m      emittedReadable: false,[39m
+[31m      readableListening: false,[39m
+[31m      resumeScheduled: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      destroyed: false,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      awaitDrainWriters: null,[39m
+[31m      multiAwaitDrain: false,[39m
+[31m      readingMore: false,[39m
+[31m      dataEmitted: false,[39m
+[31m      decoder: null,[39m
+[31m      encoding: null,[39m
+[31m      [Symbol(kPaused)]: false[39m
+[31m    },[39m
+[31m    _events: [Object: null prototype] {[39m
+[31m      end: [Array],[39m
+[31m      timeout: [Function: socketOnTimeout],[39m
+[31m      data: [Function: bound socketOnData],[39m
+[31m      error: [Function: socketOnError],[39m
+[31m      close: [Array],[39m
+[31m      drain: [Function: bound socketOnDrain],[39m
+[31m      resume: [Function: onSocketResume],[39m
+[31m      pause: [Function: onSocketPause][39m
+[31m    },[39m
+[31m    _eventsCount: 8,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    _writableState: WritableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      finalCalled: false,[39m
+[31m      needDrain: false,[39m
+[31m      ending: false,[39m
+[31m      ended: false,[39m
+[31m      finished: false,[39m
+[31m      destroyed: false,[39m
+[31m      decodeStrings: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      length: 0,[39m
+[31m      writing: false,[39m
+[31m      corked: 0,[39m
+[31m      sync: false,[39m
+[31m      bufferProcessing: false,[39m
+[31m      onwrite: [Function: bound onwrite],[39m
+[31m      writecb: null,[39m
+[31m      writelen: 0,[39m
+[31m      afterWriteTickInfo: null,[39m
+[31m      buffered: [],[39m
+[31m      bufferedIndex: 0,[39m
+[31m      allBuffers: true,[39m
+[31m      allNoop: true,[39m
+[31m      pendingcb: 0,[39m
+[31m      constructed: true,[39m
+[31m      prefinished: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      [Symbol(kOnFinished)]: [][39m
+[31m    },[39m
+[31m    allowHalfOpen: true,[39m
+[31m    _sockname: null,[39m
+[31m    _pendingData: null,[39m
+[31m    _pendingEncoding: '',[39m
+[31m    server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1023,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    _server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1023,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    parser: HTTPParser {[39m
+[31m      '0': null,[39m
+[31m      '1': [Function: parserOnHeaders],[39m
+[31m      '2': [Function: parserOnHeadersComplete],[39m
+[31m      '3': [Function: parserOnBody],[39m
+[31m      '4': [Function: parserOnMessageComplete],[39m
+[31m      '5': [Function: bound onParserExecute],[39m
+[31m      '6': [Function: bound onParserTimeout],[39m
+[31m      _headers: [],[39m
+[31m      _url: '',[39m
+[31m      socket: [Circular *1],[39m
+[31m      incoming: [Circular *2],[39m
+[31m      outgoing: null,[39m
+[31m      maxHeaderPairs: 2000,[39m
+[31m      _consumed: true,[39m
+[31m      onIncoming: [Function: bound parserOnIncoming],[39m
+[31m      [Symbol(resource_symbol)]: [HTTPServerAsyncResource][39m
+[31m    },[39m
+[31m    on: [Function: socketListenerWrap],[39m
+[31m    addListener: [Function: socketListenerWrap],[39m
+[31m    prependListener: [Function: socketListenerWrap],[39m
+[31m    setEncoding: [Function: socketSetEncoding],[39m
+[31m    _paused: false,[39m
+[31m    _httpMessage: ServerResponse {[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 1,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      outputData: [],[39m
+[31m      outputSize: 0,[39m
+[31m      writable: true,[39m
+[31m      destroyed: false,[39m
+[31m      _last: false,[39m
+[31m      chunkedEncoding: false,[39m
+[31m      shouldKeepAlive: true,[39m
+[31m      maxRequestsOnConnectionReached: false,[39m
+[31m      _defaultKeepAlive: true,[39m
+[31m      useChunkedEncodingByDefault: true,[39m
+[31m      sendDate: true,[39m
+[31m      _removedConnection: false,[39m
+[31m      _removedContLen: false,[39m
+[31m      _removedTE: false,[39m
+[31m      _contentLength: null,[39m
+[31m      _hasBody: true,[39m
+[31m      _trailer: '',[39m
+[31m      finished: false,[39m
+[31m      _headerSent: false,[39m
+[31m      _closed: false,[39m
+[31m      socket: [Circular *1],[39m
+[31m      _header: null,[39m
+[31m      _keepAliveTimeout: 5000,[39m
+[31m      _onPendingData: [Function: bound updateOutgoingData],[39m
+[31m      req: [Circular *2],[39m
+[31m      _sent100: false,[39m
+[31m      _expect_continue: false,[39m
+[31m      locals: [Object: null prototype] {},[39m
+[31m      writeHead: [Function: writeHead],[39m
+[31m      end: [Function: end],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(kNeedDrain)]: false,[39m
+[31m      [Symbol(corked)]: 0,[39m
+[31m      [Symbol(kOutHeaders)]: [Object: null prototype][39m
+[31m    },[39m
+[31m    timeout: 0,[39m
+[31m    [Symbol(async_id_symbol)]: 418,[39m
+[31m    [Symbol(kHandle)]: TCP {[39m
+[31m      reading: true,[39m
+[31m      onconnection: null,[39m
+[31m      _consumed: true,[39m
+[31m      [Symbol(owner_symbol)]: [Circular *1][39m
+[31m    },[39m
+[31m    [Symbol(lastWriteQueueSize)]: 0,[39m
+[31m    [Symbol(timeout)]: Timeout {[39m
+[31m      _idleTimeout: -1,[39m
+[31m      _idlePrev: null,[39m
+[31m      _idleNext: null,[39m
+[31m      _idleStart: 13798,[39m
+[31m      _onTimeout: null,[39m
+[31m      _timerArgs: undefined,[39m
+[31m      _repeat: null,[39m
+[31m      _destroyed: true,[39m
+[31m      [Symbol(refed)]: false,[39m
+[31m      [Symbol(kHasPrimitive)]: false,[39m
+[31m      [Symbol(asyncId)]: 493,[39m
+[31m      [Symbol(triggerId)]: 489[39m
+[31m    },[39m
+[31m    [Symbol(kBuffer)]: null,[39m
+[31m    [Symbol(kBufferCb)]: null,[39m
+[31m    [Symbol(kBufferGen)]: null,[39m
+[31m    [Symbol(kCapture)]: false,[39m
+[31m    [Symbol(kSetNoDelay)]: false,[39m
+[31m    [Symbol(kSetKeepAlive)]: false,[39m
+[31m    [Symbol(kSetKeepAliveInitialDelay)]: 0,[39m
+[31m    [Symbol(kBytesRead)]: 0,[39m
+[31m    [Symbol(kBytesWritten)]: 0[39m
+[31m  },[39m
+[31m  httpVersionMajor: 1,[39m
+[31m  httpVersionMinor: 1,[39m
+[31m  httpVersion: '1.1',[39m
+[31m  complete: true,[39m
+[31m  rawHeaders: [[39m
+[31m    'Host',[39m
+[31m    'localhost:8080',[39m
+[31m    'Connection',[39m
+[31m    'keep-alive',[39m
+[31m    'Content-Length',[39m
+[31m    '43',[39m
+[31m    'Pragma',[39m
+[31m    'no-cache',[39m
+[31m    'Cache-Control',[39m
+[31m    'no-cache',[39m
+[31m    'sec-ch-ua',[39m
+[31m    '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',[39m
+[31m    'Accept',[39m
+[31m    'application/json, text/plain, */*',[39m
+[31m    'Content-Type',[39m
+[31m    'application/json',[39m
+[31m    'sec-ch-ua-mobile',[39m
+[31m    '?0',[39m
+[31m    'User-Agent',[39m
+[31m    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',[39m
+[31m    'sec-ch-ua-platform',[39m
+[31m    '"Windows"',[39m
+[31m    'Origin',[39m
+[31m    'http://localhost:5173',[39m
+[31m    'Sec-Fetch-Site',[39m
+[31m    'same-site',[39m
+[31m    'Sec-Fetch-Mode',[39m
+[31m    'cors',[39m
+[31m    'Sec-Fetch-Dest',[39m
+[31m    'empty',[39m
+[31m    'Referer',[39m
+[31m    'http://localhost:5173/',[39m
+[31m    'Accept-Encoding',[39m
+[31m    'gzip, deflate, br',[39m
+[31m    'Accept-Language',[39m
+[31m    'es-ES,es;q=0.9,en;q=0.8'[39m
+[31m  ],[39m
+[31m  rawTrailers: [],[39m
+[31m  aborted: false,[39m
+[31m  upgrade: false,[39m
+[31m  url: '/',[39m
+[31m  method: 'POST',[39m
+[31m  statusCode: null,[39m
+[31m  statusMessage: null,[39m
+[31m  client: <ref *1> Socket {[39m
+[31m    connecting: false,[39m
+[31m    _hadError: false,[39m
+[31m    _parent: null,[39m
+[31m    _host: null,[39m
+[31m    _readableState: ReadableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      buffer: BufferList { head: null, tail: null, length: 0 },[39m
+[31m      length: 0,[39m
+[31m      pipes: [],[39m
+[31m      flowing: true,[39m
+[31m      ended: false,[39m
+[31m      endEmitted: false,[39m
+[31m      reading: true,[39m
+[31m      constructed: true,[39m
+[31m      sync: false,[39m
+[31m      needReadable: true,[39m
+[31m      emittedReadable: false,[39m
+[31m      readableListening: false,[39m
+[31m      resumeScheduled: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      destroyed: false,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      awaitDrainWriters: null,[39m
+[31m      multiAwaitDrain: false,[39m
+[31m      readingMore: false,[39m
+[31m      dataEmitted: false,[39m
+[31m      decoder: null,[39m
+[31m      encoding: null,[39m
+[31m      [Symbol(kPaused)]: false[39m
+[31m    },[39m
+[31m    _events: [Object: null prototype] {[39m
+[31m      end: [Array],[39m
+[31m      timeout: [Function: socketOnTimeout],[39m
+[31m      data: [Function: bound socketOnData],[39m
+[31m      error: [Function: socketOnError],[39m
+[31m      close: [Array],[39m
+[31m      drain: [Function: bound socketOnDrain],[39m
+[31m      resume: [Function: onSocketResume],[39m
+[31m      pause: [Function: onSocketPause][39m
+[31m    },[39m
+[31m    _eventsCount: 8,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    _writableState: WritableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      finalCalled: false,[39m
+[31m      needDrain: false,[39m
+[31m      ending: false,[39m
+[31m      ended: false,[39m
+[31m      finished: false,[39m
+[31m      destroyed: false,[39m
+[31m      decodeStrings: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      length: 0,[39m
+[31m      writing: false,[39m
+[31m      corked: 0,[39m
+[31m      sync: false,[39m
+[31m      bufferProcessing: false,[39m
+[31m      onwrite: [Function: bound onwrite],[39m
+[31m      writecb: null,[39m
+[31m      writelen: 0,[39m
+[31m      afterWriteTickInfo: null,[39m
+[31m      buffered: [],[39m
+[31m      bufferedIndex: 0,[39m
+[31m      allBuffers: true,[39m
+[31m      allNoop: true,[39m
+[31m      pendingcb: 0,[39m
+[31m      constructed: true,[39m
+[31m      prefinished: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      [Symbol(kOnFinished)]: [][39m
+[31m    },[39m
+[31m    allowHalfOpen: true,[39m
+[31m    _sockname: null,[39m
+[31m    _pendingData: null,[39m
+[31m    _pendingEncoding: '',[39m
+[31m    server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1023,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    _server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1023,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    parser: HTTPParser {[39m
+[31m      '0': null,[39m
+[31m      '1': [Function: parserOnHeaders],[39m
+[31m      '2': [Function: parserOnHeadersComplete],[39m
+[31m      '3': [Function: parserOnBody],[39m
+[31m      '4': [Function: parserOnMessageComplete],[39m
+[31m      '5': [Function: bound onParserExecute],[39m
+[31m      '6': [Function: bound onParserTimeout],[39m
+[31m      _headers: [],[39m
+[31m      _url: '',[39m
+[31m      socket: [Circular *1],[39m
+[31m      incoming: [Circular *2],[39m
+[31m      outgoing: null,[39m
+[31m      maxHeaderPairs: 2000,[39m
+[31m      _consumed: true,[39m
+[31m      onIncoming: [Function: bound parserOnIncoming],[39m
+[31m      [Symbol(resource_symbol)]: [HTTPServerAsyncResource][39m
+[31m    },[39m
+[31m    on: [Function: socketListenerWrap],[39m
+[31m    addListener: [Function: socketListenerWrap],[39m
+[31m    prependListener: [Function: socketListenerWrap],[39m
+[31m    setEncoding: [Function: socketSetEncoding],[39m
+[31m    _paused: false,[39m
+[31m    _httpMessage: ServerResponse {[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 1,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      outputData: [],[39m
+[31m      outputSize: 0,[39m
+[31m      writable: true,[39m
+[31m      destroyed: false,[39m
+[31m      _last: false,[39m
+[31m      chunkedEncoding: false,[39m
+[31m      shouldKeepAlive: true,[39m
+[31m      maxRequestsOnConnectionReached: false,[39m
+[31m      _defaultKeepAlive: true,[39m
+[31m      useChunkedEncodingByDefault: true,[39m
+[31m      sendDate: true,[39m
+[31m      _removedConnection: false,[39m
+[31m      _removedContLen: false,[39m
+[31m      _removedTE: false,[39m
+[31m      _contentLength: null,[39m
+[31m      _hasBody: true,[39m
+[31m      _trailer: '',[39m
+[31m      finished: false,[39m
+[31m      _headerSent: false,[39m
+[31m      _closed: false,[39m
+[31m      socket: [Circular *1],[39m
+[31m      _header: null,[39m
+[31m      _keepAliveTimeout: 5000,[39m
+[31m      _onPendingData: [Function: bound updateOutgoingData],[39m
+[31m      req: [Circular *2],[39m
+[31m      _sent100: false,[39m
+[31m      _expect_continue: false,[39m
+[31m      locals: [Object: null prototype] {},[39m
+[31m      writeHead: [Function: writeHead],[39m
+[31m      end: [Function: end],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(kNeedDrain)]: false,[39m
+[31m      [Symbol(corked)]: 0,[39m
+[31m      [Symbol(kOutHeaders)]: [Object: null prototype][39m
+[31m    },[39m
+[31m    timeout: 0,[39m
+[31m    [Symbol(async_id_symbol)]: 418,[39m
+[31m    [Symbol(kHandle)]: TCP {[39m
+[31m      reading: true,[39m
+[31m      onconnection: null,[39m
+[31m      _consumed: true,[39m
+[31m      [Symbol(owner_symbol)]: [Circular *1][39m
+[31m    },[39m
+[31m    [Symbol(lastWriteQueueSize)]: 0,[39m
+[31m    [Symbol(timeout)]: Timeout {[39m
+[31m      _idleTimeout: -1,[39m
+[31m      _idlePrev: null,[39m
+[31m      _idleNext: null,[39m
+[31m      _idleStart: 13798,[39m
+[31m      _onTimeout: null,[39m
+[31m      _timerArgs: undefined,[39m
+[31m      _repeat: null,[39m
+[31m      _destroyed: true,[39m
+[31m      [Symbol(refed)]: false,[39m
+[31m      [Symbol(kHasPrimitive)]: false,[39m
+[31m      [Symbol(asyncId)]: 493,[39m
+[31m      [Symbol(triggerId)]: 489[39m
+[31m    },[39m
+[31m    [Symbol(kBuffer)]: null,[39m
+[31m    [Symbol(kBufferCb)]: null,[39m
+[31m    [Symbol(kBufferGen)]: null,[39m
+[31m    [Symbol(kCapture)]: false,[39m
+[31m    [Symbol(kSetNoDelay)]: false,[39m
+[31m    [Symbol(kSetKeepAlive)]: false,[39m
+[31m    [Symbol(kSetKeepAliveInitialDelay)]: 0,[39m
+[31m    [Symbol(kBytesRead)]: 0,[39m
+[31m    [Symbol(kBytesWritten)]: 0[39m
+[31m  },[39m
+[31m  _consuming: true,[39m
+[31m  _dumped: false,[39m
+[31m  next: [Function: next],[39m
+[31m  baseUrl: '/api/auth/login',[39m
+[31m  originalUrl: '/api/auth/login',[39m
+[31m  _parsedUrl: Url {[39m
+[31m    protocol: null,[39m
+[31m    slashes: null,[39m
+[31m    auth: null,[39m
+[31m    host: null,[39m
+[31m    port: null,[39m
+[31m    hostname: null,[39m
+[31m    hash: null,[39m
+[31m    search: null,[39m
+[31m    query: null,[39m
+[31m    pathname: '/',[39m
+[31m    path: '/',[39m
+[31m    href: '/',[39m
+[31m    _raw: '/'[39m
+[31m  },[39m
+[31m  params: {},[39m
+[31m  query: {},[39m
+[31m  res: <ref *3> ServerResponse {[39m
+[31m    _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },[39m
+[31m    _eventsCount: 1,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    outputData: [],[39m
+[31m    outputSize: 0,[39m
+[31m    writable: true,[39m
+[31m    destroyed: false,[39m
+[31m    _last: false,[39m
+[31m    chunkedEncoding: false,[39m
+[31m    shouldKeepAlive: true,[39m
+[31m    maxRequestsOnConnectionReached: false,[39m
+[31m    _defaultKeepAlive: true,[39m
+[31m    useChunkedEncodingByDefault: true,[39m
+[31m    sendDate: true,[39m
+[31m    _removedConnection: false,[39m
+[31m    _removedContLen: false,[39m
+[31m    _removedTE: false,[39m
+[31m    _contentLength: null,[39m
+[31m    _hasBody: true,[39m
+[31m    _trailer: '',[39m
+[31m    finished: false,[39m
+[31m    _headerSent: false,[39m
+[31m    _closed: false,[39m
+[31m    socket: <ref *1> Socket {[39m
+[31m      connecting: false,[39m
+[31m      _hadError: false,[39m
+[31m      _parent: null,[39m
+[31m      _host: null,[39m
+[31m      _readableState: [ReadableState],[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 8,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _writableState: [WritableState],[39m
+[31m      allowHalfOpen: true,[39m
+[31m      _sockname: null,[39m
+[31m      _pendingData: null,[39m
+[31m      _pendingEncoding: '',[39m
+[31m      server: [Server],[39m
+[31m      _server: [Server],[39m
+[31m      parser: [HTTPParser],[39m
+[31m      on: [Function: socketListenerWrap],[39m
+[31m      addListener: [Function: socketListenerWrap],[39m
+[31m      prependListener: [Function: socketListenerWrap],[39m
+[31m      setEncoding: [Function: socketSetEncoding],[39m
+[31m      _paused: false,[39m
+[31m      _httpMessage: [Circular *3],[39m
+[31m      timeout: 0,[39m
+[31m      [Symbol(async_id_symbol)]: 418,[39m
+[31m      [Symbol(kHandle)]: [TCP],[39m
+[31m      [Symbol(lastWriteQueueSize)]: 0,[39m
+[31m      [Symbol(timeout)]: Timeout {[39m
+[31m        _idleTimeout: -1,[39m
+[31m        _idlePrev: null,[39m
+[31m        _idleNext: null,[39m
+[31m        _idleStart: 13798,[39m
+[31m        _onTimeout: null,[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: null,[39m
+[31m        _destroyed: true,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 493,[39m
+[31m        [Symbol(triggerId)]: 489[39m
+[31m      },[39m
+[31m      [Symbol(kBuffer)]: null,[39m
+[31m      [Symbol(kBufferCb)]: null,[39m
+[31m      [Symbol(kBufferGen)]: null,[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(kSetNoDelay)]: false,[39m
+[31m      [Symbol(kSetKeepAlive)]: false,[39m
+[31m      [Symbol(kSetKeepAliveInitialDelay)]: 0,[39m
+[31m      [Symbol(kBytesRead)]: 0,[39m
+[31m      [Symbol(kBytesWritten)]: 0[39m
+[31m    },[39m
+[31m    _header: null,[39m
+[31m    _keepAliveTimeout: 5000,[39m
+[31m    _onPendingData: [Function: bound updateOutgoingData],[39m
+[31m    req: [Circular *2],[39m
+[31m    _sent100: false,[39m
+[31m    _expect_continue: false,[39m
+[31m    locals: [Object: null prototype] {},[39m
+[31m    writeHead: [Function: writeHead],[39m
+[31m    end: [Function: end],[39m
+[31m    [Symbol(kCapture)]: false,[39m
+[31m    [Symbol(kNeedDrain)]: false,[39m
+[31m    [Symbol(corked)]: 0,[39m
+[31m    [Symbol(kOutHeaders)]: [Object: null prototype] {[39m
+[31m      'x-powered-by': [Array],[39m
+[31m      'access-control-allow-origin': [Array][39m
+[31m    }[39m
+[31m  },[39m
+[31m  body: { email: 'luka@luka.com', password: 'luka' },[39m
+[31m  _body: true,[39m
+[31m  length: undefined,[39m
+[31m  _parsedOriginalUrl: Url {[39m
+[31m    protocol: null,[39m
+[31m    slashes: null,[39m
+[31m    auth: null,[39m
+[31m    host: null,[39m
+[31m    port: null,[39m
+[31m    hostname: null,[39m
+[31m    hash: null,[39m
+[31m    search: null,[39m
+[31m    query: null,[39m
+[31m    pathname: '/api/auth/login',[39m
+[31m    path: '/api/auth/login',[39m
+[31m    href: '/api/auth/login',[39m
+[31m    _raw: '/api/auth/login'[39m
+[31m  },[39m
+[31m  sessionStore: MemoryStore {[39m
+[31m    _events: [Object: null prototype] {[39m
+[31m      disconnect: [Function: ondisconnect],[39m
+[31m      connect: [Function: onconnect][39m
+[31m    },[39m
+[31m    _eventsCount: 2,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    sessions: [Object: null prototype] {[39m
+[31m      'G1dATTrnRIpYH6RD0hytN1teCmwv-b_S': '{"cookie":{"originalMaxAge":600000,"expires":"2022-09-19T00:16:59.211Z","secure":false,"httpOnly":false,"path":"/"}}'[39m
+[31m    },[39m
+[31m    generate: [Function (anonymous)],[39m
+[31m    [Symbol(kCapture)]: false[39m
+[31m  },[39m
+[31m  sessionID: '9P19Ddn2mlmLKRdhuyz2E7AG7Dj34NCN',[39m
+[31m  session: Session {[39m
+[31m    cookie: {[39m
+[31m      path: '/',[39m
+[31m      _expires: 2022-09-19T00:17:02.335Z,[39m
+[31m      originalMaxAge: 600000,[39m
+[31m      httpOnly: false,[39m
+[31m      secure: false[39m
+[31m    }[39m
+[31m  },[39m
+[31m  logIn: [Function (anonymous)],[39m
+[31m  login: [Function (anonymous)],[39m
+[31m  logOut: [Function (anonymous)],[39m
+[31m  logout: [Function (anonymous)],[39m
+[31m  isAuthenticated: [Function (anonymous)],[39m
+[31m  isUnauthenticated: [Function (anonymous)],[39m
+[31m  _sessionManager: SessionManager {[39m
+[31m    _key: 'passport',[39m
+[31m    _serializeUser: [Function: bound ][39m
+[31m  },[39m
+[31m  _passport: {[39m
+[31m    instance: Authenticator {[39m
+[31m      _key: 'passport',[39m
+[31m      _strategies: [Object],[39m
+[31m      _serializers: [Array],[39m
+[31m      _deserializers: [Array],[39m
+[31m      _infoTransformers: [],[39m
+[31m      _framework: [Object],[39m
+[31m      _sm: [SessionManager],[39m
+[31m      Authenticator: [Function: Authenticator],[39m
+[31m      Passport: [Function: Authenticator],[39m
+[31m      Strategy: [Function],[39m
+[31m      strategies: [Object],[39m
+[31m      _userProperty: 'user'[39m
+[31m    }[39m
+[31m  },[39m
+[31m  route: Route {[39m
+[31m    path: '/',[39m
+[31m    stack: [ [Layer], [Layer] ],[39m
+[31m    methods: { post: true }[39m
+[31m  },[39m
+[31m  [Symbol(kCapture)]: false,[39m
+[31m  [Symbol(kHeaders)]: {[39m
+[31m    host: 'localhost:8080',[39m
+[31m    connection: 'keep-alive',[39m
+[31m    'content-length': '43',[39m
+[31m    pragma: 'no-cache',[39m
+[31m    'cache-control': 'no-cache',[39m
+[31m    'sec-ch-ua': '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',[39m
+[31m    accept: 'application/json, text/plain, */*',[39m
+[31m    'content-type': 'application/json',[39m
+[31m    'sec-ch-ua-mobile': '?0',[39m
+[31m    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',[39m
+[31m    'sec-ch-ua-platform': '"Windows"',[39m
+[31m    origin: 'http://localhost:5173',[39m
+[31m    'sec-fetch-site': 'same-site',[39m
+[31m    'sec-fetch-mode': 'cors',[39m
+[31m    'sec-fetch-dest': 'empty',[39m
+[31m    referer: 'http://localhost:5173/',[39m
+[31m    'accept-encoding': 'gzip, deflate, br',[39m
+[31m    'accept-language': 'es-ES,es;q=0.9,en;q=0.8'[39m
+[31m  },[39m
+[31m  [Symbol(kHeadersCount)]: 36,[39m
+[31m  [Symbol(kTrailers)]: null,[39m
+[31m  [Symbol(kTrailersCount)]: 0[39m
+[31m}" (type IncomingMessage) at path "email" for model "users"[39m
+2022-09-18 21:07:29:729 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:07:29:729 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:07:30:730 [31merror[39m: [31mCast to string failed for value "<ref *2> IncomingMessage {[39m
+[31m  _readableState: ReadableState {[39m
+[31m    objectMode: false,[39m
+[31m    highWaterMark: 16384,[39m
+[31m    buffer: BufferList { head: null, tail: null, length: 0 },[39m
+[31m    length: 0,[39m
+[31m    pipes: [],[39m
+[31m    flowing: true,[39m
+[31m    ended: true,[39m
+[31m    endEmitted: true,[39m
+[31m    reading: false,[39m
+[31m    constructed: true,[39m
+[31m    sync: false,[39m
+[31m    needReadable: false,[39m
+[31m    emittedReadable: false,[39m
+[31m    readableListening: false,[39m
+[31m    resumeScheduled: false,[39m
+[31m    errorEmitted: false,[39m
+[31m    emitClose: true,[39m
+[31m    autoDestroy: true,[39m
+[31m    destroyed: true,[39m
+[31m    errored: null,[39m
+[31m    closed: true,[39m
+[31m    closeEmitted: true,[39m
+[31m    defaultEncoding: 'utf8',[39m
+[31m    awaitDrainWriters: null,[39m
+[31m    multiAwaitDrain: false,[39m
+[31m    readingMore: false,[39m
+[31m    dataEmitted: true,[39m
+[31m    decoder: null,[39m
+[31m    encoding: null,[39m
+[31m    [Symbol(kPaused)]: false[39m
+[31m  },[39m
+[31m  _events: [Object: null prototype] {},[39m
+[31m  _eventsCount: 0,[39m
+[31m  _maxListeners: undefined,[39m
+[31m  socket: <ref *1> Socket {[39m
+[31m    connecting: false,[39m
+[31m    _hadError: false,[39m
+[31m    _parent: null,[39m
+[31m    _host: null,[39m
+[31m    _readableState: ReadableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      buffer: BufferList { head: null, tail: null, length: 0 },[39m
+[31m      length: 0,[39m
+[31m      pipes: [],[39m
+[31m      flowing: true,[39m
+[31m      ended: false,[39m
+[31m      endEmitted: false,[39m
+[31m      reading: true,[39m
+[31m      constructed: true,[39m
+[31m      sync: false,[39m
+[31m      needReadable: true,[39m
+[31m      emittedReadable: false,[39m
+[31m      readableListening: false,[39m
+[31m      resumeScheduled: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      destroyed: false,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      awaitDrainWriters: null,[39m
+[31m      multiAwaitDrain: false,[39m
+[31m      readingMore: false,[39m
+[31m      dataEmitted: false,[39m
+[31m      decoder: null,[39m
+[31m      encoding: null,[39m
+[31m      [Symbol(kPaused)]: false[39m
+[31m    },[39m
+[31m    _events: [Object: null prototype] {[39m
+[31m      end: [Array],[39m
+[31m      timeout: [Function: socketOnTimeout],[39m
+[31m      data: [Function: bound socketOnData],[39m
+[31m      error: [Function: socketOnError],[39m
+[31m      close: [Array],[39m
+[31m      drain: [Function: bound socketOnDrain],[39m
+[31m      resume: [Function: onSocketResume],[39m
+[31m      pause: [Function: onSocketPause][39m
+[31m    },[39m
+[31m    _eventsCount: 8,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    _writableState: WritableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      finalCalled: false,[39m
+[31m      needDrain: false,[39m
+[31m      ending: false,[39m
+[31m      ended: false,[39m
+[31m      finished: false,[39m
+[31m      destroyed: false,[39m
+[31m      decodeStrings: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      length: 0,[39m
+[31m      writing: false,[39m
+[31m      corked: 0,[39m
+[31m      sync: false,[39m
+[31m      bufferProcessing: false,[39m
+[31m      onwrite: [Function: bound onwrite],[39m
+[31m      writecb: null,[39m
+[31m      writelen: 0,[39m
+[31m      afterWriteTickInfo: null,[39m
+[31m      buffered: [],[39m
+[31m      bufferedIndex: 0,[39m
+[31m      allBuffers: true,[39m
+[31m      allNoop: true,[39m
+[31m      pendingcb: 0,[39m
+[31m      constructed: true,[39m
+[31m      prefinished: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      [Symbol(kOnFinished)]: [][39m
+[31m    },[39m
+[31m    allowHalfOpen: true,[39m
+[31m    _sockname: null,[39m
+[31m    _pendingData: null,[39m
+[31m    _pendingEncoding: '',[39m
+[31m    server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1050,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    _server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1050,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    parser: HTTPParser {[39m
+[31m      '0': null,[39m
+[31m      '1': [Function: parserOnHeaders],[39m
+[31m      '2': [Function: parserOnHeadersComplete],[39m
+[31m      '3': [Function: parserOnBody],[39m
+[31m      '4': [Function: parserOnMessageComplete],[39m
+[31m      '5': [Function: bound onParserExecute],[39m
+[31m      '6': [Function: bound onParserTimeout],[39m
+[31m      _headers: [],[39m
+[31m      _url: '',[39m
+[31m      socket: [Circular *1],[39m
+[31m      incoming: [Circular *2],[39m
+[31m      outgoing: null,[39m
+[31m      maxHeaderPairs: 2000,[39m
+[31m      _consumed: true,[39m
+[31m      onIncoming: [Function: bound parserOnIncoming],[39m
+[31m      [Symbol(resource_symbol)]: [HTTPServerAsyncResource][39m
+[31m    },[39m
+[31m    on: [Function: socketListenerWrap],[39m
+[31m    addListener: [Function: socketListenerWrap],[39m
+[31m    prependListener: [Function: socketListenerWrap],[39m
+[31m    setEncoding: [Function: socketSetEncoding],[39m
+[31m    _paused: false,[39m
+[31m    _httpMessage: ServerResponse {[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 1,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      outputData: [],[39m
+[31m      outputSize: 0,[39m
+[31m      writable: true,[39m
+[31m      destroyed: false,[39m
+[31m      _last: false,[39m
+[31m      chunkedEncoding: false,[39m
+[31m      shouldKeepAlive: true,[39m
+[31m      maxRequestsOnConnectionReached: false,[39m
+[31m      _defaultKeepAlive: true,[39m
+[31m      useChunkedEncodingByDefault: true,[39m
+[31m      sendDate: true,[39m
+[31m      _removedConnection: false,[39m
+[31m      _removedContLen: false,[39m
+[31m      _removedTE: false,[39m
+[31m      _contentLength: null,[39m
+[31m      _hasBody: true,[39m
+[31m      _trailer: '',[39m
+[31m      finished: false,[39m
+[31m      _headerSent: false,[39m
+[31m      _closed: false,[39m
+[31m      socket: [Circular *1],[39m
+[31m      _header: null,[39m
+[31m      _keepAliveTimeout: 5000,[39m
+[31m      _onPendingData: [Function: bound updateOutgoingData],[39m
+[31m      req: [Circular *2],[39m
+[31m      _sent100: false,[39m
+[31m      _expect_continue: false,[39m
+[31m      locals: [Object: null prototype] {},[39m
+[31m      writeHead: [Function: writeHead],[39m
+[31m      end: [Function: end],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(kNeedDrain)]: false,[39m
+[31m      [Symbol(corked)]: 0,[39m
+[31m      [Symbol(kOutHeaders)]: [Object: null prototype][39m
+[31m    },[39m
+[31m    timeout: 0,[39m
+[31m    [Symbol(async_id_symbol)]: 370,[39m
+[31m    [Symbol(kHandle)]: TCP {[39m
+[31m      reading: true,[39m
+[31m      onconnection: null,[39m
+[31m      _consumed: true,[39m
+[31m      [Symbol(owner_symbol)]: [Circular *1][39m
+[31m    },[39m
+[31m    [Symbol(lastWriteQueueSize)]: 0,[39m
+[31m    [Symbol(timeout)]: Timeout {[39m
+[31m      _idleTimeout: -1,[39m
+[31m      _idlePrev: null,[39m
+[31m      _idleNext: null,[39m
+[31m      _idleStart: 2470,[39m
+[31m      _onTimeout: null,[39m
+[31m      _timerArgs: undefined,[39m
+[31m      _repeat: null,[39m
+[31m      _destroyed: true,[39m
+[31m      [Symbol(refed)]: false,[39m
+[31m      [Symbol(kHasPrimitive)]: false,[39m
+[31m      [Symbol(asyncId)]: 378,[39m
+[31m      [Symbol(triggerId)]: 374[39m
+[31m    },[39m
+[31m    [Symbol(kBuffer)]: null,[39m
+[31m    [Symbol(kBufferCb)]: null,[39m
+[31m    [Symbol(kBufferGen)]: null,[39m
+[31m    [Symbol(kCapture)]: false,[39m
+[31m    [Symbol(kSetNoDelay)]: false,[39m
+[31m    [Symbol(kSetKeepAlive)]: false,[39m
+[31m    [Symbol(kSetKeepAliveInitialDelay)]: 0,[39m
+[31m    [Symbol(kBytesRead)]: 0,[39m
+[31m    [Symbol(kBytesWritten)]: 0[39m
+[31m  },[39m
+[31m  httpVersionMajor: 1,[39m
+[31m  httpVersionMinor: 1,[39m
+[31m  httpVersion: '1.1',[39m
+[31m  complete: true,[39m
+[31m  rawHeaders: [[39m
+[31m    'Host',[39m
+[31m    'localhost:8080',[39m
+[31m    'Connection',[39m
+[31m    'keep-alive',[39m
+[31m    'Content-Length',[39m
+[31m    '43',[39m
+[31m    'Pragma',[39m
+[31m    'no-cache',[39m
+[31m    'Cache-Control',[39m
+[31m    'no-cache',[39m
+[31m    'sec-ch-ua',[39m
+[31m    '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',[39m
+[31m    'Accept',[39m
+[31m    'application/json, text/plain, */*',[39m
+[31m    'Content-Type',[39m
+[31m    'application/json',[39m
+[31m    'sec-ch-ua-mobile',[39m
+[31m    '?0',[39m
+[31m    'User-Agent',[39m
+[31m    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',[39m
+[31m    'sec-ch-ua-platform',[39m
+[31m    '"Windows"',[39m
+[31m    'Origin',[39m
+[31m    'http://localhost:5173',[39m
+[31m    'Sec-Fetch-Site',[39m
+[31m    'same-site',[39m
+[31m    'Sec-Fetch-Mode',[39m
+[31m    'cors',[39m
+[31m    'Sec-Fetch-Dest',[39m
+[31m    'empty',[39m
+[31m    'Referer',[39m
+[31m    'http://localhost:5173/',[39m
+[31m    'Accept-Encoding',[39m
+[31m    'gzip, deflate, br',[39m
+[31m    'Accept-Language',[39m
+[31m    'es-ES,es;q=0.9,en;q=0.8'[39m
+[31m  ],[39m
+[31m  rawTrailers: [],[39m
+[31m  aborted: false,[39m
+[31m  upgrade: false,[39m
+[31m  url: '/',[39m
+[31m  method: 'POST',[39m
+[31m  statusCode: null,[39m
+[31m  statusMessage: null,[39m
+[31m  client: <ref *1> Socket {[39m
+[31m    connecting: false,[39m
+[31m    _hadError: false,[39m
+[31m    _parent: null,[39m
+[31m    _host: null,[39m
+[31m    _readableState: ReadableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      buffer: BufferList { head: null, tail: null, length: 0 },[39m
+[31m      length: 0,[39m
+[31m      pipes: [],[39m
+[31m      flowing: true,[39m
+[31m      ended: false,[39m
+[31m      endEmitted: false,[39m
+[31m      reading: true,[39m
+[31m      constructed: true,[39m
+[31m      sync: false,[39m
+[31m      needReadable: true,[39m
+[31m      emittedReadable: false,[39m
+[31m      readableListening: false,[39m
+[31m      resumeScheduled: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      destroyed: false,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      awaitDrainWriters: null,[39m
+[31m      multiAwaitDrain: false,[39m
+[31m      readingMore: false,[39m
+[31m      dataEmitted: false,[39m
+[31m      decoder: null,[39m
+[31m      encoding: null,[39m
+[31m      [Symbol(kPaused)]: false[39m
+[31m    },[39m
+[31m    _events: [Object: null prototype] {[39m
+[31m      end: [Array],[39m
+[31m      timeout: [Function: socketOnTimeout],[39m
+[31m      data: [Function: bound socketOnData],[39m
+[31m      error: [Function: socketOnError],[39m
+[31m      close: [Array],[39m
+[31m      drain: [Function: bound socketOnDrain],[39m
+[31m      resume: [Function: onSocketResume],[39m
+[31m      pause: [Function: onSocketPause][39m
+[31m    },[39m
+[31m    _eventsCount: 8,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    _writableState: WritableState {[39m
+[31m      objectMode: false,[39m
+[31m      highWaterMark: 16384,[39m
+[31m      finalCalled: false,[39m
+[31m      needDrain: false,[39m
+[31m      ending: false,[39m
+[31m      ended: false,[39m
+[31m      finished: false,[39m
+[31m      destroyed: false,[39m
+[31m      decodeStrings: false,[39m
+[31m      defaultEncoding: 'utf8',[39m
+[31m      length: 0,[39m
+[31m      writing: false,[39m
+[31m      corked: 0,[39m
+[31m      sync: false,[39m
+[31m      bufferProcessing: false,[39m
+[31m      onwrite: [Function: bound onwrite],[39m
+[31m      writecb: null,[39m
+[31m      writelen: 0,[39m
+[31m      afterWriteTickInfo: null,[39m
+[31m      buffered: [],[39m
+[31m      bufferedIndex: 0,[39m
+[31m      allBuffers: true,[39m
+[31m      allNoop: true,[39m
+[31m      pendingcb: 0,[39m
+[31m      constructed: true,[39m
+[31m      prefinished: false,[39m
+[31m      errorEmitted: false,[39m
+[31m      emitClose: false,[39m
+[31m      autoDestroy: true,[39m
+[31m      errored: null,[39m
+[31m      closed: false,[39m
+[31m      closeEmitted: false,[39m
+[31m      [Symbol(kOnFinished)]: [][39m
+[31m    },[39m
+[31m    allowHalfOpen: true,[39m
+[31m    _sockname: null,[39m
+[31m    _pendingData: null,[39m
+[31m    _pendingEncoding: '',[39m
+[31m    server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1050,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    _server: Server {[39m
+[31m      maxHeaderSize: undefined,[39m
+[31m      insecureHTTPParser: undefined,[39m
+[31m      requestTimeout: 300000,[39m
+[31m      headersTimeout: 60000,[39m
+[31m      keepAliveTimeout: 5000,[39m
+[31m      connectionsCheckingInterval: 30000,[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 2,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _connections: 1,[39m
+[31m      _handle: [TCP],[39m
+[31m      _usingWorkers: false,[39m
+[31m      _workers: [],[39m
+[31m      _unref: false,[39m
+[31m      allowHalfOpen: true,[39m
+[31m      pauseOnConnect: false,[39m
+[31m      noDelay: true,[39m
+[31m      keepAlive: false,[39m
+[31m      keepAliveInitialDelay: 0,[39m
+[31m      httpAllowHalfOpen: false,[39m
+[31m      timeout: 0,[39m
+[31m      maxHeadersCount: null,[39m
+[31m      maxRequestsPerSocket: 0,[39m
+[31m      _connectionKey: '6::::8080',[39m
+[31m      [Symbol(IncomingMessage)]: [Function: IncomingMessage],[39m
+[31m      [Symbol(ServerResponse)]: [Function: ServerResponse],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(async_id_symbol)]: 281,[39m
+[31m      [Symbol(http.server.connections)]: ConnectionsList {},[39m
+[31m      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {[39m
+[31m        _idleTimeout: 30000,[39m
+[31m        _idlePrev: [TimersList],[39m
+[31m        _idleNext: [TimersList],[39m
+[31m        _idleStart: 1050,[39m
+[31m        _onTimeout: [Function: bound checkConnections],[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: 30000,[39m
+[31m        _destroyed: false,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 280,[39m
+[31m        [Symbol(triggerId)]: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m    parser: HTTPParser {[39m
+[31m      '0': null,[39m
+[31m      '1': [Function: parserOnHeaders],[39m
+[31m      '2': [Function: parserOnHeadersComplete],[39m
+[31m      '3': [Function: parserOnBody],[39m
+[31m      '4': [Function: parserOnMessageComplete],[39m
+[31m      '5': [Function: bound onParserExecute],[39m
+[31m      '6': [Function: bound onParserTimeout],[39m
+[31m      _headers: [],[39m
+[31m      _url: '',[39m
+[31m      socket: [Circular *1],[39m
+[31m      incoming: [Circular *2],[39m
+[31m      outgoing: null,[39m
+[31m      maxHeaderPairs: 2000,[39m
+[31m      _consumed: true,[39m
+[31m      onIncoming: [Function: bound parserOnIncoming],[39m
+[31m      [Symbol(resource_symbol)]: [HTTPServerAsyncResource][39m
+[31m    },[39m
+[31m    on: [Function: socketListenerWrap],[39m
+[31m    addListener: [Function: socketListenerWrap],[39m
+[31m    prependListener: [Function: socketListenerWrap],[39m
+[31m    setEncoding: [Function: socketSetEncoding],[39m
+[31m    _paused: false,[39m
+[31m    _httpMessage: ServerResponse {[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 1,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      outputData: [],[39m
+[31m      outputSize: 0,[39m
+[31m      writable: true,[39m
+[31m      destroyed: false,[39m
+[31m      _last: false,[39m
+[31m      chunkedEncoding: false,[39m
+[31m      shouldKeepAlive: true,[39m
+[31m      maxRequestsOnConnectionReached: false,[39m
+[31m      _defaultKeepAlive: true,[39m
+[31m      useChunkedEncodingByDefault: true,[39m
+[31m      sendDate: true,[39m
+[31m      _removedConnection: false,[39m
+[31m      _removedContLen: false,[39m
+[31m      _removedTE: false,[39m
+[31m      _contentLength: null,[39m
+[31m      _hasBody: true,[39m
+[31m      _trailer: '',[39m
+[31m      finished: false,[39m
+[31m      _headerSent: false,[39m
+[31m      _closed: false,[39m
+[31m      socket: [Circular *1],[39m
+[31m      _header: null,[39m
+[31m      _keepAliveTimeout: 5000,[39m
+[31m      _onPendingData: [Function: bound updateOutgoingData],[39m
+[31m      req: [Circular *2],[39m
+[31m      _sent100: false,[39m
+[31m      _expect_continue: false,[39m
+[31m      locals: [Object: null prototype] {},[39m
+[31m      writeHead: [Function: writeHead],[39m
+[31m      end: [Function: end],[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(kNeedDrain)]: false,[39m
+[31m      [Symbol(corked)]: 0,[39m
+[31m      [Symbol(kOutHeaders)]: [Object: null prototype][39m
+[31m    },[39m
+[31m    timeout: 0,[39m
+[31m    [Symbol(async_id_symbol)]: 370,[39m
+[31m    [Symbol(kHandle)]: TCP {[39m
+[31m      reading: true,[39m
+[31m      onconnection: null,[39m
+[31m      _consumed: true,[39m
+[31m      [Symbol(owner_symbol)]: [Circular *1][39m
+[31m    },[39m
+[31m    [Symbol(lastWriteQueueSize)]: 0,[39m
+[31m    [Symbol(timeout)]: Timeout {[39m
+[31m      _idleTimeout: -1,[39m
+[31m      _idlePrev: null,[39m
+[31m      _idleNext: null,[39m
+[31m      _idleStart: 2470,[39m
+[31m      _onTimeout: null,[39m
+[31m      _timerArgs: undefined,[39m
+[31m      _repeat: null,[39m
+[31m      _destroyed: true,[39m
+[31m      [Symbol(refed)]: false,[39m
+[31m      [Symbol(kHasPrimitive)]: false,[39m
+[31m      [Symbol(asyncId)]: 378,[39m
+[31m      [Symbol(triggerId)]: 374[39m
+[31m    },[39m
+[31m    [Symbol(kBuffer)]: null,[39m
+[31m    [Symbol(kBufferCb)]: null,[39m
+[31m    [Symbol(kBufferGen)]: null,[39m
+[31m    [Symbol(kCapture)]: false,[39m
+[31m    [Symbol(kSetNoDelay)]: false,[39m
+[31m    [Symbol(kSetKeepAlive)]: false,[39m
+[31m    [Symbol(kSetKeepAliveInitialDelay)]: 0,[39m
+[31m    [Symbol(kBytesRead)]: 0,[39m
+[31m    [Symbol(kBytesWritten)]: 0[39m
+[31m  },[39m
+[31m  _consuming: true,[39m
+[31m  _dumped: false,[39m
+[31m  next: [Function: next],[39m
+[31m  baseUrl: '/api/auth/login',[39m
+[31m  originalUrl: '/api/auth/login',[39m
+[31m  _parsedUrl: Url {[39m
+[31m    protocol: null,[39m
+[31m    slashes: null,[39m
+[31m    auth: null,[39m
+[31m    host: null,[39m
+[31m    port: null,[39m
+[31m    hostname: null,[39m
+[31m    hash: null,[39m
+[31m    search: null,[39m
+[31m    query: null,[39m
+[31m    pathname: '/',[39m
+[31m    path: '/',[39m
+[31m    href: '/',[39m
+[31m    _raw: '/'[39m
+[31m  },[39m
+[31m  params: {},[39m
+[31m  query: {},[39m
+[31m  res: <ref *3> ServerResponse {[39m
+[31m    _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },[39m
+[31m    _eventsCount: 1,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    outputData: [],[39m
+[31m    outputSize: 0,[39m
+[31m    writable: true,[39m
+[31m    destroyed: false,[39m
+[31m    _last: false,[39m
+[31m    chunkedEncoding: false,[39m
+[31m    shouldKeepAlive: true,[39m
+[31m    maxRequestsOnConnectionReached: false,[39m
+[31m    _defaultKeepAlive: true,[39m
+[31m    useChunkedEncodingByDefault: true,[39m
+[31m    sendDate: true,[39m
+[31m    _removedConnection: false,[39m
+[31m    _removedContLen: false,[39m
+[31m    _removedTE: false,[39m
+[31m    _contentLength: null,[39m
+[31m    _hasBody: true,[39m
+[31m    _trailer: '',[39m
+[31m    finished: false,[39m
+[31m    _headerSent: false,[39m
+[31m    _closed: false,[39m
+[31m    socket: <ref *1> Socket {[39m
+[31m      connecting: false,[39m
+[31m      _hadError: false,[39m
+[31m      _parent: null,[39m
+[31m      _host: null,[39m
+[31m      _readableState: [ReadableState],[39m
+[31m      _events: [Object: null prototype],[39m
+[31m      _eventsCount: 8,[39m
+[31m      _maxListeners: undefined,[39m
+[31m      _writableState: [WritableState],[39m
+[31m      allowHalfOpen: true,[39m
+[31m      _sockname: null,[39m
+[31m      _pendingData: null,[39m
+[31m      _pendingEncoding: '',[39m
+[31m      server: [Server],[39m
+[31m      _server: [Server],[39m
+[31m      parser: [HTTPParser],[39m
+[31m      on: [Function: socketListenerWrap],[39m
+[31m      addListener: [Function: socketListenerWrap],[39m
+[31m      prependListener: [Function: socketListenerWrap],[39m
+[31m      setEncoding: [Function: socketSetEncoding],[39m
+[31m      _paused: false,[39m
+[31m      _httpMessage: [Circular *3],[39m
+[31m      timeout: 0,[39m
+[31m      [Symbol(async_id_symbol)]: 370,[39m
+[31m      [Symbol(kHandle)]: [TCP],[39m
+[31m      [Symbol(lastWriteQueueSize)]: 0,[39m
+[31m      [Symbol(timeout)]: Timeout {[39m
+[31m        _idleTimeout: -1,[39m
+[31m        _idlePrev: null,[39m
+[31m        _idleNext: null,[39m
+[31m        _idleStart: 2470,[39m
+[31m        _onTimeout: null,[39m
+[31m        _timerArgs: undefined,[39m
+[31m        _repeat: null,[39m
+[31m        _destroyed: true,[39m
+[31m        [Symbol(refed)]: false,[39m
+[31m        [Symbol(kHasPrimitive)]: false,[39m
+[31m        [Symbol(asyncId)]: 378,[39m
+[31m        [Symbol(triggerId)]: 374[39m
+[31m      },[39m
+[31m      [Symbol(kBuffer)]: null,[39m
+[31m      [Symbol(kBufferCb)]: null,[39m
+[31m      [Symbol(kBufferGen)]: null,[39m
+[31m      [Symbol(kCapture)]: false,[39m
+[31m      [Symbol(kSetNoDelay)]: false,[39m
+[31m      [Symbol(kSetKeepAlive)]: false,[39m
+[31m      [Symbol(kSetKeepAliveInitialDelay)]: 0,[39m
+[31m      [Symbol(kBytesRead)]: 0,[39m
+[31m      [Symbol(kBytesWritten)]: 0[39m
+[31m    },[39m
+[31m    _header: null,[39m
+[31m    _keepAliveTimeout: 5000,[39m
+[31m    _onPendingData: [Function: bound updateOutgoingData],[39m
+[31m    req: [Circular *2],[39m
+[31m    _sent100: false,[39m
+[31m    _expect_continue: false,[39m
+[31m    locals: [Object: null prototype] {},[39m
+[31m    writeHead: [Function: writeHead],[39m
+[31m    end: [Function: end],[39m
+[31m    [Symbol(kCapture)]: false,[39m
+[31m    [Symbol(kNeedDrain)]: false,[39m
+[31m    [Symbol(corked)]: 0,[39m
+[31m    [Symbol(kOutHeaders)]: [Object: null prototype] {[39m
+[31m      'x-powered-by': [Array],[39m
+[31m      'access-control-allow-origin': [Array][39m
+[31m    }[39m
+[31m  },[39m
+[31m  body: { email: 'luka@luka.com', password: 'luka' },[39m
+[31m  _body: true,[39m
+[31m  length: undefined,[39m
+[31m  _parsedOriginalUrl: Url {[39m
+[31m    protocol: null,[39m
+[31m    slashes: null,[39m
+[31m    auth: null,[39m
+[31m    host: null,[39m
+[31m    port: null,[39m
+[31m    hostname: null,[39m
+[31m    hash: null,[39m
+[31m    search: null,[39m
+[31m    query: null,[39m
+[31m    pathname: '/api/auth/login',[39m
+[31m    path: '/api/auth/login',[39m
+[31m    href: '/api/auth/login',[39m
+[31m    _raw: '/api/auth/login'[39m
+[31m  },[39m
+[31m  sessionStore: MemoryStore {[39m
+[31m    _events: [Object: null prototype] {[39m
+[31m      disconnect: [Function: ondisconnect],[39m
+[31m      connect: [Function: onconnect][39m
+[31m    },[39m
+[31m    _eventsCount: 2,[39m
+[31m    _maxListeners: undefined,[39m
+[31m    sessions: [Object: null prototype] {},[39m
+[31m    generate: [Function (anonymous)],[39m
+[31m    [Symbol(kCapture)]: false[39m
+[31m  },[39m
+[31m  sessionID: 'pwKmI27J_CA6SWdD1rS1XJMW9skktqu1',[39m
+[31m  session: Session {[39m
+[31m    cookie: {[39m
+[31m      path: '/',[39m
+[31m      _expires: 2022-09-19T00:17:30.573Z,[39m
+[31m      originalMaxAge: 600000,[39m
+[31m      httpOnly: false,[39m
+[31m      secure: false[39m
+[31m    }[39m
+[31m  },[39m
+[31m  logIn: [Function (anonymous)],[39m
+[31m  login: [Function (anonymous)],[39m
+[31m  logOut: [Function (anonymous)],[39m
+[31m  logout: [Function (anonymous)],[39m
+[31m  isAuthenticated: [Function (anonymous)],[39m
+[31m  isUnauthenticated: [Function (anonymous)],[39m
+[31m  _sessionManager: SessionManager {[39m
+[31m    _key: 'passport',[39m
+[31m    _serializeUser: [Function: bound ][39m
+[31m  },[39m
+[31m  _passport: {[39m
+[31m    instance: Authenticator {[39m
+[31m      _key: 'passport',[39m
+[31m      _strategies: [Object],[39m
+[31m      _serializers: [Array],[39m
+[31m      _deserializers: [Array],[39m
+[31m      _infoTransformers: [],[39m
+[31m      _framework: [Object],[39m
+[31m      _sm: [SessionManager],[39m
+[31m      Authenticator: [Function: Authenticator],[39m
+[31m      Passport: [Function: Authenticator],[39m
+[31m      Strategy: [Function],[39m
+[31m      strategies: [Object],[39m
+[31m      _userProperty: 'user'[39m
+[31m    }[39m
+[31m  },[39m
+[31m  route: Route {[39m
+[31m    path: '/',[39m
+[31m    stack: [ [Layer], [Layer] ],[39m
+[31m    methods: { post: true }[39m
+[31m  },[39m
+[31m  [Symbol(kCapture)]: false,[39m
+[31m  [Symbol(kHeaders)]: {[39m
+[31m    host: 'localhost:8080',[39m
+[31m    connection: 'keep-alive',[39m
+[31m    'content-length': '43',[39m
+[31m    pragma: 'no-cache',[39m
+[31m    'cache-control': 'no-cache',[39m
+[31m    'sec-ch-ua': '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',[39m
+[31m    accept: 'application/json, text/plain, */*',[39m
+[31m    'content-type': 'application/json',[39m
+[31m    'sec-ch-ua-mobile': '?0',[39m
+[31m    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',[39m
+[31m    'sec-ch-ua-platform': '"Windows"',[39m
+[31m    origin: 'http://localhost:5173',[39m
+[31m    'sec-fetch-site': 'same-site',[39m
+[31m    'sec-fetch-mode': 'cors',[39m
+[31m    'sec-fetch-dest': 'empty',[39m
+[31m    referer: 'http://localhost:5173/',[39m
+[31m    'accept-encoding': 'gzip, deflate, br',[39m
+[31m    'accept-language': 'es-ES,es;q=0.9,en;q=0.8'[39m
+[31m  },[39m
+[31m  [Symbol(kHeadersCount)]: 36,[39m
+[31m  [Symbol(kTrailers)]: null,[39m
+[31m  [Symbol(kTrailersCount)]: 0[39m
+[31m}" (type IncomingMessage) at path "email" for model "users"[39m
+2022-09-18 21:07:46:746 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:07:46:746 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:07:52:752 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:07:52:752 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:08:51:851 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:08:51:851 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:12:31:1231 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:12:31:1231 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:12:54:1254 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:12:54:1254 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:13:17:1317 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:13:17:1317 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:17:07:177 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:17:07:177 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:17:20:1720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:17:20:1720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:17:57:1757 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:17:57:1757 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:23:51:2351 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:23:51:2351 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:24:13:2413 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:24:13:2413 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:24:20:2420 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:24:20:2420 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:25:51:2551 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:25:51:2551 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:26:36:2636 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:26:36:2636 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:27:37:2737 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:27:37:2737 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:31:50:3150 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:31:50:3150 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:31:55:3155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:31:55:3155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:32:02:322 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:32:02:322 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:32:33:3233 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:32:33:3233 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:33:54:3354 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:33:54:3354 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:34:30:3430 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:34:30:3430 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:34:54:3454 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:34:54:3454 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:39:51:3951 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:39:51:3951 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:40:00:400 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:40:00:400 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:40:08:408 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:40:08:408 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:40:13:4013 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:40:13:4013 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:40:37:4037 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:40:37:4037 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:41:11:4111 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:41:11:4111 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:41:34:4134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:41:34:4134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:42:33:4233 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:42:33:4233 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:42:38:4238 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:42:38:4238 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:44:55:4455 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:44:55:4455 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:45:14:4514 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:45:14:4514 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:46:07:467 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:46:07:467 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:46:25:4625 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:46:25:4625 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:46:27:4627 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:46:27:4627 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:46:33:4633 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:46:33:4633 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:46:41:4641 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:46:41:4641 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:53:29:5329 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:53:29:5329 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:54:03:543 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:54:03:543 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:54:04:544 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:54:04:544 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:54:07:547 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:54:07:547 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:55:58:5558 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:55:58:5558 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:56:22:5622 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:56:22:5622 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:58:09:589 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:58:09:589 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:58:24:5824 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:58:24:5824 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 21:58:28:5828 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 21:58:28:5828 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:01:48:148 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:01:48:148 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:04:16:416 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:04:16:416 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:08:14:814 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:08:14:814 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:11:28:1128 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:11:28:1128 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:11:56:1156 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:11:56:1156 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:12:06:126 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:12:06:126 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:12:25:1225 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:12:25:1225 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:15:21:1521 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:15:21:1521 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:15:59:1559 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:15:59:1559 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:22:12:2212 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:22:12:2212 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:23:18:2318 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:23:18:2318 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:23:31:2331 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:23:31:2331 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:24:36:2436 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:24:36:2436 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:25:13:2513 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:25:13:2513 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-18 22:25:38:2538 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-18 22:25:38:2538 [37mdebug[39m: [37mServer is running on port 8080[39m
