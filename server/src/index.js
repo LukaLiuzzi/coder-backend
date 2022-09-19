@@ -1,18 +1,32 @@
 import mongoose from 'mongoose';
 import { app } from './app.js';
-import { MONGO_URI, PORT } from './config/config.js';
+import { CLUSTER, MONGO_URI, PORT } from './config/config.js';
 import { Logger } from './logger/index.js';
+import cluster from 'cluster';
+import os from 'os';
 
-mongoose
-	.connect(MONGO_URI)
-	.then(() => {
-		Logger.debug('Connected to DB');
-		app.listen(PORT, (error) => {
-			if (error) {
-				Logger.error(error);
-			} else {
-				Logger.debug(`Server is running on port ${PORT}`);
-			}
-		});
-	})
-	.catch((err) => Logger.error(err));
+const numCPUs = os.cpus().length;
+if (cluster.isPrimary && CLUSTER !== 'false') {
+	for (let i = 0; i < numCPUs; i++) {
+		cluster.fork();
+	}
+
+	cluster.on('exit', (worker, code, signal) => {
+		Logger.error(`Worker ${worker.process.pid} died`);
+		cluster.fork();
+	});
+} else {
+	mongoose
+		.connect(MONGO_URI)
+		.then(() => {
+			Logger.debug('Connected to DB');
+			app.listen(PORT, (error) => {
+				if (error) {
+					Logger.error(error);
+				} else {
+					Logger.debug(`Server is running on port ${PORT}`);
+				}
+			});
+		})
+		.catch((err) => Logger.error(err));
+}
