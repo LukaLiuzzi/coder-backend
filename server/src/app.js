@@ -10,12 +10,18 @@ import cors from 'cors';
 import { logoutRouter } from './routes/logout.routes.js';
 import { productsRouter } from './routes/products.routes.js';
 import { cartRouter } from './routes/cart.routes.js';
+import { CORS_ORIGIN } from './config/config.js';
 
 const app = express();
 // * MIDDLEWARES
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(
+	cors({
+		origin: CORS_ORIGIN,
+		credentials: true,
+	})
+);
 app.use(express.static('avatars'));
 
 app.use(

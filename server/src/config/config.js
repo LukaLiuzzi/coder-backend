@@ -8,5 +8,6 @@ const MONGO_URI =
 
 const MAIL_RECEIVER = 'lukaliuzzidev@gmail.com';
 const CLUSTER = process.env.CLUSTER || true;
+const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:5173';
 
-export { PORT, ENVIROMENT, MONGO_URI, MAIL_RECEIVER, CLUSTER };
+export { PORT, ENVIROMENT, MONGO_URI, MAIL_RECEIVER, CLUSTER, CORS_ORIGIN };
