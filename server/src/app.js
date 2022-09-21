@@ -11,6 +11,7 @@ import { logoutRouter } from './routes/logout.routes.js';
 import { productsRouter } from './routes/products.routes.js';
 import { cartRouter } from './routes/cart.routes.js';
 import { CORS_ORIGIN } from './config/config.js';
+import { checkoutRouter } from './routes/checkout.js';
 
 const app = express();
 // * MIDDLEWARES
@@ -46,13 +47,11 @@ passport.use('register', registerStrategy);
 passport.use('login', loginStrategy);
 
 passport.serializeUser((user, done) => {
-	// console.log('serial', user)
 	done(null, user._id);
 });
 
 passport.deserializeUser(async (id, done) => {
 	const user = await UserModel.findOne({ _id: id });
-	console.log('deserialize', user);
 	done(null, user);
 });
 
@@ -61,5 +60,6 @@ app.use('/api/auth/register', registerRouter);
 app.use('/api/auth/logout', logoutRouter);
 app.use('/api/products', productsRouter);
 app.use('/api/cart', cartRouter);
+app.use('/api/checkout', checkoutRouter);
 
 export { app };

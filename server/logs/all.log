@@ -3535,3 +3535,697 @@
 2022-09-21 01:35:22:3522 [37mdebug[39m: [37mServer is running on port 8080[39m
 2022-09-21 01:35:22:3522 [37mdebug[39m: [37mConnected to DB[39m
 2022-09-21 01:35:22:3522 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:25:3525 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:31:3531 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:35:35:3535 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:35:35:3535 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:27:3627 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:36:31:3631 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:02:372 [31merror[39m: [31mWorker 4052 died[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:05:375 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:09:379 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:14:3714 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:14:3714 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:49:3749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:50:3750 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:50:3750 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:37:50:3750 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:37:50:3750 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:04:384 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:09:389 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:17:3817 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:18:3818 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:18:3818 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:18:3818 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:18:3818 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:18:3818 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:18:3818 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:38:21:3821 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:44:4444 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:49:4449 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:49:4449 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:44:49:4449 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:44:49:4449 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:03:503 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:50:07:507 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:38:5338 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:41:5341 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 01:53:42:5342 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 01:53:42:5342 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:43:643 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:54:654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:06:58:658 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:20:720 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:07:24:724 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:15:815 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:20:820 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:20:820 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:20:820 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:20:820 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:25:825 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:25:825 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:25:825 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:25:825 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:25:825 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:25:825 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:50:850 [31merror[39m: [31mWorker 17712 died[39m
+2022-09-21 02:08:50:850 [31merror[39m: [31mWorker 15728 died[39m
+2022-09-21 02:08:50:850 [31merror[39m: [31mWorker 6100 died[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:52:852 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:08:57:857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:02:92 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:02:92 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:45:945 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:09:49:949 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:23:1023 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:24:1024 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:24:1024 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:24:1024 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:24:1024 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:24:1024 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:24:1024 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:28:1028 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:28:1028 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:28:1028 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:10:28:1028 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:10:44:1044 [31merror[39m: [31mMessage cannot have the same To and From for account AC02204c5dbb746f9a4b88937c01ebdb98[39m
+2022-09-21 02:10:44:1044 [31merror[39m: [31mThe 'To' number +541151196494 is not a valid phone number.[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:04:134 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:08:138 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:08:138 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:08:138 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:08:138 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:08:138 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:08:138 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:36:1336 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:13:39:1339 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:13:39:1339 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:07:147 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:12:1412 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:12:1412 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:17:1417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:22:1422 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:14:22:1422 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:14:40:1440 [31merror[39m: [31mThe From phone number +14156884237 is not a valid, SMS-capable inbound phone number or short code for your account.[39m
+2022-09-21 02:14:40:1440 [32minfo[39m: [32mMessage sent: %s[39m
+2022-09-21 02:14:44:1444 [31merror[39m: [31minfo is not defined[39m
+2022-09-21 02:15:32:1532 [31merror[39m: [31mWorker 11308 died[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:36:1536 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:40:1540 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:40:1540 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:40:1540 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:40:1540 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:48:1548 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:15:52:1552 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:15:58:1558 [31merror[39m: [31minfo is not defined[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:41:1641 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:46:1646 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:49:1649 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:54:1654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:54:1654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:54:1654 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:16:54:1654 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:16:55:1655 [31merror[39m: [31minfo is not defined[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:39:2039 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:43:2043 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:44:2044 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:44:2044 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:48:2048 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:20:48:2048 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:20:52:2052 [32minfo[39m: [32mMessage sent: %s[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:55:2155 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:21:59:2159 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:12:2312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:16:2316 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:16:2316 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:16:2316 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:16:2316 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:16:2316 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:23:16:2316 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:23:29:2329 [32minfo[39m: [32mWhatsApp sent: to[39m
+2022-09-21 02:23:29:2329 [31merror[39m: [31mThe number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.[39m
+2022-09-21 02:23:32:2332 [32minfo[39m: [32mMail sent to[39m
+2022-09-21 02:24:37:2437 [31merror[39m: [31mThe number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.[39m
+2022-09-21 02:24:37:2437 [32minfo[39m: [32mWhatsApp sent: to[39m
+2022-09-21 02:24:39:2439 [32minfo[39m: [32mMail sent to[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:23:2723 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:28:2728 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:28:2728 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:28:2728 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:28:2728 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:28:2728 [37mdebug[39m: [37mConnected to DB[39m
+2022-09-21 02:27:28:2728 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-09-21 02:27:30:2730 [32minfo[39m: [32mWhatsApp sent: to[39m
+2022-09-21 02:27:30:2730 [32minfo[39m: [32mMessage sent: %s[39m
+2022-09-21 02:27:33:2733 [32minfo[39m: [32mMail sent to[39m
