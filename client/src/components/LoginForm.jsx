@@ -19,7 +19,9 @@ export default function LoginForm() {
 			.post(`${BASE_API_URL}/auth/login`, {
 				email: formData.email,
 				password: formData.password,
-			})
+			},
+			{withCredentials: true}
+			)
 			.then((res) => {
 				setUser(res.data.user);
 				navigate('/');

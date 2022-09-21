@@ -21,10 +21,16 @@ export default function ProductItem({ product }) {
 
 	const handleAddToCart = (product) => {
 		axios
-			.get(`${BASE_API_URL}/cart`, {
+			.post(`${BASE_API_URL}/cart`, 
+			
+			
+			{
 				productId: product._id,
 				quantity,
-			})
+			},
+			{withCredentials: true}
+			
+			)
 			.then((res) => {
 				console.log(res);
 			})

@@ -10,7 +10,6 @@ import cors from 'cors';
 import { logoutRouter } from './routes/logout.routes.js';
 import { productsRouter } from './routes/products.routes.js';
 import { cartRouter } from './routes/cart.routes.js';
-import { CORS_ORIGIN } from './config/config.js';
 
 const app = express();
 // * MIDDLEWARES
@@ -18,12 +17,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
 	cors({
-		origin: CORS_ORIGIN,
-		credentials: true,
+	  origin: "http://localhost:5173", 
+	  credentials: true,
 	})
-);
+  );
 app.use(express.static('avatars'));
 
+// app.use(session({
+//     secret: 'coderhouse',
+//     resave: true,
+//     saveUninitialized: true
+// }));
 app.use(
 	session({
 		secret: 'coderhouse',
@@ -33,8 +37,8 @@ app.use(
 			maxAge: 1000 * 60 * 60 * 24 * 7,
 		},
 		rolling: true,
-		resave: false,
-		saveUninitialized: false,
+		resave: true,
+		saveUninitialized: true,
 	})
 );
 
@@ -45,12 +49,16 @@ passport.use('register', registerStrategy);
 passport.use('login', loginStrategy);
 
 passport.serializeUser((user, done) => {
+	// console.log('serial', user)
 	done(null, user._id);
 });
 
-passport.deserializeUser((id, done) => {
-	UserModel.findById(id, done);
+passport.deserializeUser(async(id, done) => {
+	const user = await UserModel.findOne({_id: id});
+	console.log('deserialize', user)
+	done(null, user)
 });
+
 
 app.use('/api/auth/login', loginRouter);
 app.use('/api/auth/register', registerRouter);
