@@ -8,7 +8,6 @@ const loginStrategy = new LocalStrategy(
 	async (email, password, done) => {
 		try {
 			const user = await UserModel.findOne({ email });
-			console.log(user)
 
 			if (!user || !isValidPassword(password, user.password)) {
 				return done(null, null);

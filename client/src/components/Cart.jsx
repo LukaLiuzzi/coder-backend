@@ -11,13 +11,11 @@ export default function Cart() {
 		axios
 			.get(`${BASE_API_URL}/cart`, { withCredentials: true })
 			.then(({ data }) => {
-				console.log(data);
-				console.log(user);
 				setCart(data);
 			})
 
 			.catch((err) => {
-				console.log(err);
+				console.error(err);
 			});
 	}, []);
 

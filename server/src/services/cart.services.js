@@ -5,7 +5,6 @@ const getCartService = async (userId) => {
 	const cart = await CartModel.findOne({ userId })
 		.populate('products.productId')
 		.exec();
-	console.log(cart);
 	return cart;
 };
 

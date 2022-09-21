@@ -16,18 +16,20 @@ export default function LoginForm() {
 		e.preventDefault();
 
 		axios
-			.post(`${BASE_API_URL}/auth/login`, {
-				email: formData.email,
-				password: formData.password,
-			},
-			{withCredentials: true}
+			.post(
+				`${BASE_API_URL}/auth/login`,
+				{
+					email: formData.email,
+					password: formData.password,
+				},
+				{ withCredentials: true }
 			)
 			.then((res) => {
 				setUser(res.data.user);
 				navigate('/');
 			})
 			.catch((err) => {
-				console.log(err);
+				console.error(err);
 			});
 	};
 

@@ -12,7 +12,7 @@ export default function Navbar({ user }) {
 				navigate('/login');
 			})
 			.catch((err) => {
-				console.log(err);
+				console.error(err);
 			});
 	};
 
