@@ -1836,3 +1836,8 @@
 2022-09-20 22:02:03:23 [31merror[39m: [31mgetaddrinfo ENOTFOUND ac-yhcrp85-shard-00-02.9slvdpx.mongodb.net[39m
 2022-09-20 22:02:03:23 [31merror[39m: [31mCould not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/[39m
 2022-09-20 22:02:03:23 [31merror[39m: [31mgetaddrinfo ENOTFOUND ac-yhcrp85-shard-00-02.9slvdpx.mongodb.net[39m
+2022-09-21 00:07:25:725 [31merror[39m: [31mWorker 12260 died[39m
+2022-09-21 00:07:53:753 [31merror[39m: [31mWorker 19940 died[39m
+2022-09-21 00:09:38:938 [31merror[39m: [31mWorker 1476 died[39m
+2022-09-21 00:10:29:1029 [31merror[39m: [31mWorker 22076 died[39m
+2022-09-21 01:13:17:1317 [31merror[39m: [31mWorker 5804 died[39m

@@ -1,7 +1,11 @@
 import { CartModel } from '../models/cart.model.js';
+import { ProductModel } from '../models/product.model.js';
 
 const getCartService = async (userId) => {
-	const cart = await CartModel.findOne({ userId });
+	const cart = await CartModel.findOne({ userId })
+		.populate('products.productId')
+		.exec();
+	console.log(cart);
 	return cart;
 };
 

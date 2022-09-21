@@ -4,6 +4,7 @@ import Login from './views/Login';
 import Home from './views/Home';
 import UserContextProvider from './context/UserContext';
 import ProductsContainer from './components/ProductsContainer';
+import Cart from './components/Cart';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 					<Route path='/login' element={<Login />} />
 					<Route path='/' element={<Home />}>
 						<Route path='products' element={<ProductsContainer />} />
+						<Route path='cart' element={<Cart />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

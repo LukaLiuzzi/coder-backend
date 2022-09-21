@@ -10,6 +10,7 @@ import cors from 'cors';
 import { logoutRouter } from './routes/logout.routes.js';
 import { productsRouter } from './routes/products.routes.js';
 import { cartRouter } from './routes/cart.routes.js';
+import { CORS_ORIGIN } from './config/config.js';
 
 const app = express();
 // * MIDDLEWARES
@@ -17,17 +18,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
 	cors({
-	  origin: "http://localhost:5173", 
-	  credentials: true,
+		origin: CORS_ORIGIN,
+		credentials: true,
 	})
-  );
+);
+
 app.use(express.static('avatars'));
 
-// app.use(session({
-//     secret: 'coderhouse',
-//     resave: true,
-//     saveUninitialized: true
-// }));
 app.use(
 	session({
 		secret: 'coderhouse',
@@ -53,12 +50,11 @@ passport.serializeUser((user, done) => {
 	done(null, user._id);
 });
 
-passport.deserializeUser(async(id, done) => {
-	const user = await UserModel.findOne({_id: id});
-	console.log('deserialize', user)
-	done(null, user)
+passport.deserializeUser(async (id, done) => {
+	const user = await UserModel.findOne({ _id: id });
+	console.log('deserialize', user);
+	done(null, user);
 });
-
 
 app.use('/api/auth/login', loginRouter);
 app.use('/api/auth/register', registerRouter);
