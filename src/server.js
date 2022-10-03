@@ -12,7 +12,7 @@ const path = require('path');
 const normalizeMsg = require('./normalizr');
 require('dotenv').config();
 const { Server: IOServer } = require('socket.io');
-const Container = require('./container');
+const Container = require('./daos/container');
 const { dbConnectionMySQL, dbConnectionSQLite } = require('./dbConfig');
 const passport = require('passport');
 const User = require('./models/users.js');
@@ -54,7 +54,7 @@ if (argv.mode === 'cluster' && cluster.isPrimary) {
 }
 
 const io = new IOServer(expressServer);
-const products = new Container(dbConnectionMySQL, 'products');
+const products = Container.createInstance(dbConnectionMySQL, 'products');
 
 // * Cookies and Sessions
 app.use(

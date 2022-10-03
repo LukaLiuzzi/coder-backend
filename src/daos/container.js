@@ -1,9 +1,13 @@
-const { logger } = require('./logger');
+const { logger } = require('../logger');
 
 class Container {
 	constructor(knexConfig, table) {
 		this.knexConfig = knexConfig;
 		this.table = table;
+	}
+
+	static createInstance(knexConfig, table) {
+		if (!Container.instance) return new Container(knexConfig, table);
 	}
 
 	async save(obj) {
