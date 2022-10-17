@@ -12,6 +12,15 @@ import { productsRouter } from './routes/products.routes.js';
 import { cartRouter } from './routes/cart.routes.js';
 import { CORS_ORIGIN } from './config/config.js';
 import { checkoutRouter } from './routes/checkout.js';
+import { graphqlHTTP } from 'express-graphql';
+import { productSchema } from './graphql/schemas/productsSchema.js';
+import {
+	createProduct,
+	getProduct,
+	getProducts,
+	updateProduct,
+	deleteProduct,
+} from './graphql/controllers/ProductsControllers.js';
 
 const app = express();
 // * MIDDLEWARES
@@ -54,6 +63,21 @@ passport.deserializeUser(async (id, done) => {
 	const user = await UserModel.findOne({ _id: id });
 	done(null, user);
 });
+
+app.use(
+	'/graphql',
+	graphqlHTTP({
+		schema: productSchema,
+		rootValue: {
+			createProduct,
+			getProduct,
+			getProducts,
+			updateProduct,
+			deleteProduct,
+		},
+		graphiql: true,
+	})
+);
 
 app.use('/api/auth/login', loginRouter);
 app.use('/api/auth/register', registerRouter);
