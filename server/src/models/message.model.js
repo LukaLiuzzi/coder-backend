@@ -1,26 +1,19 @@
 import { Schema, model } from 'mongoose';
 
-const ProductSchema = new Schema(
+const MessageSchema = new Schema(
 	{
-		name: {
+		email: {
 			type: String,
 			required: true,
 			lowercase: true,
 		},
-		price: {
-			type: Number,
-			required: true,
-		},
-		stock: {
-			type: Number,
-			required: true,
-		},
-		category: {
+		type: {
 			type: String,
 			required: true,
 			lowercase: true,
+			enum: ['user', 'system'],
 		},
-		image: {
+		message: {
 			type: String,
 			required: true,
 		},
@@ -31,6 +24,6 @@ const ProductSchema = new Schema(
 	}
 );
 
-const ProductModel = model('products', ProductSchema);
+const MessageModel = model('messages', MessageSchema);
 
-export { ProductModel };
+export { MessageModel };

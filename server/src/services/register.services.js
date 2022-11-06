@@ -1,19 +1,7 @@
-import nodemailer from 'nodemailer';
 import { MAIL_RECEIVER } from '../config/config.js';
+import { transporter } from '../config/mailer.js';
 
 const sendMailToAdmin = async (user) => {
-	const testAccount = await nodemailer.createTestAccount();
-
-	const transporter = nodemailer.createTransport({
-		host: 'smtp.ethereal.email',
-		port: 587,
-		secure: false,
-		auth: {
-			user: testAccount.user,
-			pass: testAccount.pass,
-		},
-	});
-
 	const mailOptions = {
 		from: 'Lukita 😁',
 		to: MAIL_RECEIVER,

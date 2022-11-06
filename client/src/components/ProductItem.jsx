@@ -4,6 +4,7 @@ import { BASE_API_URL } from '../config';
 
 export default function ProductItem({ product }) {
 	const [quantity, setQuantity] = useState(1);
+	const [error, setError] = useState(null);
 
 	const handleAddQuantity = () => {
 		if (quantity < product.stock) {
@@ -34,9 +35,19 @@ export default function ProductItem({ product }) {
 				console.log(res);
 			})
 			.catch((err) => {
-				console.error(err);
+				setError(err.response.data.message);
 			});
 	};
+
+	if (error)
+		return (
+			<div>
+				<h1 className='text-center text-white text-2xl'>Error</h1>
+				<div className='flex text-white justify-center items-center flex-col'>
+					<p>{error}</p>
+				</div>
+			</div>
+		);
 
 	return (
 		<div className='max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 uppercase'>

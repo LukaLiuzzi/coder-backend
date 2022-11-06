@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { app } from './app.js';
+import { server } from './app.js';
 import { CLUSTER, MONGO_URI, PORT } from './config/config.js';
 import { Logger } from './logger/index.js';
 import cluster from 'cluster';
@@ -20,7 +20,7 @@ if (cluster.isPrimary && CLUSTER !== 'false') {
 		.connect(MONGO_URI)
 		.then(() => {
 			Logger.debug('Connected to DB');
-			app.listen(PORT, (error) => {
+			server.listen(PORT, (error) => {
 				if (error) {
 					Logger.error(error);
 				} else {

@@ -1854,3 +1854,18 @@
 2022-09-21 02:16:55:1655 [31merror[39m: [31minfo is not defined[39m
 2022-09-21 02:23:29:2329 [31merror[39m: [31mThe number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.[39m
 2022-09-21 02:24:37:2437 [31merror[39m: [31mThe number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:49:56:4956 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-05 21:55:13:5513 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
+2022-11-06 02:48:26:4826 [31merror[39m: [31mError: process.cpus is not a function - User: undefined[39m
+2022-11-06 17:09:44:944 [31merror[39m: [31mapp is not defined[39m

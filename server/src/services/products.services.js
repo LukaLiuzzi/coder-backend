@@ -1,6 +1,11 @@
 import { ProductModel } from '../models/product.model.js';
 
-const getProductsService = async () => {
+const getProductsService = async (category) => {
+	if (category) {
+		category = category.toLowerCase();
+		const products = await ProductModel.find({ category });
+		return products;
+	}
 	const products = await ProductModel.find();
 	return products;
 };
@@ -12,6 +17,9 @@ const postProductService = async (product) => {
 
 const getProductService = async (id) => {
 	const product = await ProductModel.findById(id);
+	if (!product) {
+		throw new Error('Product not found');
+	}
 	return product;
 };
 

@@ -11,6 +11,7 @@ export default function LoginForm() {
 		email: '',
 		password: '',
 	});
+	const [error, setError] = useState(null);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -29,9 +30,19 @@ export default function LoginForm() {
 				navigate('/');
 			})
 			.catch((err) => {
-				console.error(err);
+				setError(err.response.data.message);
 			});
 	};
+
+	if (error)
+		return (
+			<div>
+				<h1 className='text-center text-white text-2xl'>Error</h1>
+				<div className='flex text-white justify-center items-center flex-col'>
+					<p>{error}</p>
+				</div>
+			</div>
+		);
 
 	return (
 		<section className='bg-gray-50 dark:bg-gray-900'>

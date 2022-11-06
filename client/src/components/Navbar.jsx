@@ -85,6 +85,24 @@ export default function Navbar({ user }) {
 									Carrito
 								</NavLink>
 							</li>
+							<li>
+								<NavLink
+									to={'/chat'}
+									className='block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0'
+								>
+									Chat
+								</NavLink>
+							</li>
+							{user && user.role === 'admin' && (
+								<li>
+									<NavLink
+										to={'/serverinfo'}
+										className='block py-2 pr-4 pl-3 text-gray-400 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0'
+									>
+										Server Info
+									</NavLink>
+								</li>
+							)}
 						</ul>
 					</div>
 				</div>

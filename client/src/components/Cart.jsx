@@ -5,6 +5,7 @@ import { useUserContext } from '../context/UserContext';
 
 export default function Cart() {
 	const [cart, setCart] = useState(null);
+	const [error, setError] = useState(null);
 	const { user } = useUserContext();
 
 	useEffect(() => {
@@ -15,9 +16,10 @@ export default function Cart() {
 			})
 
 			.catch((err) => {
-				console.error(err);
+				setError(err.response.data.message);
 			});
 	}, []);
+	console.log(cart);
 
 	const handleCheckout = () => {
 		axios
@@ -33,6 +35,16 @@ export default function Cart() {
 				console.error(err);
 			});
 	};
+
+	if (error)
+		return (
+			<div>
+				<h1 className='text-center text-white text-2xl'>Error</h1>
+				<div className='flex text-white justify-center items-center flex-col'>
+					<p>{error}</p>
+				</div>
+			</div>
+		);
 
 	return (
 		<>

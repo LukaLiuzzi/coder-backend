@@ -1,4 +1,3 @@
-import nodemailer from 'nodemailer';
 import {
 	ADMIN_NUMBER,
 	MAIL_RECEIVER,
@@ -7,20 +6,9 @@ import {
 } from '../config/config.js';
 import twilio from 'twilio';
 import { Logger } from '../logger/index.js';
+import { transporter } from '../config/mailer.js';
 
 const sendMailToAdminOnCheckout = async ({ user, cart }) => {
-	const testAccount = await nodemailer.createTestAccount();
-
-	const transporter = nodemailer.createTransport({
-		host: 'smtp.ethereal.email',
-		port: 587,
-		secure: false,
-		auth: {
-			user: testAccount.user,
-			pass: testAccount.pass,
-		},
-	});
-
 	const mailOptions = {
 		from: 'smtp.ethereal.email',
 		to: MAIL_RECEIVER,

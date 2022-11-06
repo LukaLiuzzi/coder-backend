@@ -13,6 +13,10 @@ const registerStrategy = new LocalStrategy(
 				return done(null, null);
 			}
 
+			if (password !== req.body.confirmPassword) {
+				return done('Error en registro', null);
+			}
+
 			const newUser = {
 				password: hashPassword(password),
 				email: email,

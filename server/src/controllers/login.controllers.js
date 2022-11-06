@@ -1,4 +1,4 @@
-const getLogin = (req, res) => {
+const getLogin = (req, res, next) => {
 	if (req.isAuthenticated()) {
 		const user = req.user;
 		user.password = undefined;
@@ -6,7 +6,7 @@ const getLogin = (req, res) => {
 			user,
 		});
 	} else {
-		res.status(401).json({ message: 'Not authenticated' });
+		next({ message: 'Not logged in' });
 	}
 };
 

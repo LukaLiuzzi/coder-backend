@@ -12,6 +12,6 @@ const router = Router();
 router.get('/', getProducts);
 router.post('/', checkRoleAuth(['admin']), postProduct);
 router.get('/:id', getProduct);
-router.put('/:id', checkRoleAuth(['admin']), checkRoleAuth, putProduct);
-router.delete('/:id', checkRoleAuth(['admin']), checkRoleAuth, deleteProduct);
+router.put('/:id', checkRoleAuth(['admin']), putProduct);
+router.delete('/:id', checkRoleAuth(['admin']), deleteProduct);
 export { router as productsRouter };

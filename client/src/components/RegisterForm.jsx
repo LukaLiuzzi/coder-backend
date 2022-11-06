@@ -14,6 +14,7 @@ export default function RegisterForm() {
 		age: '',
 		avatar: '',
 	});
+	const [error, setError] = useState(null);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -21,21 +22,38 @@ export default function RegisterForm() {
 		const data = new FormData();
 		data.append('email', formData.email);
 		data.append('password', formData.password);
+		data.append('confirmPassword', formData.confirmPassword);
 		data.append('name', formData.name);
 		data.append('address', formData.address);
 		data.append('phone', formData.phone);
 		data.append('age', formData.age);
 		data.append('avatar', formData.avatar);
 
+		if (formData.password !== formData.confirmPassword) {
+			return setError('Las contraseñas no coinciden');
+		}
+
 		axios
 			.post(`${BASE_API_URL}/auth/register`, data)
 			.then((res) => {
 				navigate('/login');
+				console.log(res);
 			})
 			.catch((err) => {
-				console.error(err);
+				console.log(err);
+				setError('Error al registrarse');
 			});
 	};
+
+	if (error)
+		return (
+			<div>
+				<h1 className='text-center text-white text-2xl'>Error</h1>
+				<div className='flex text-white justify-center items-center flex-col'>
+					<p>{error}</p>
+				</div>
+			</div>
+		);
 
 	return (
 		<section className='bg-gray-50 dark:bg-gray-900'>
@@ -95,6 +113,29 @@ export default function RegisterForm() {
 										})
 									}
 									value={formData.password}
+								/>
+							</div>
+							<div>
+								<label
+									htmlFor='confirmPassword'
+									className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								>
+									Confirmar contraseña
+								</label>
+								<input
+									type='password'
+									name='confirmPassword'
+									id='confirmPassword'
+									placeholder='••••••••'
+									className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+									required={true}
+									autoComplete='on'
+									onChange={(e) =>
+										setFormData({
+											...formData,
+											[e.target.name]: e.target.value,
+										})
+									}
 								/>
 							</div>
 							<div>
