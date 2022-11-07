@@ -17,6 +17,7 @@ import { checkoutRouter } from './routes/checkout.js';
 import { handleError } from './middlewares/error.handle.js';
 import { serverInfoRouter } from './routes/serverInfo.routes.js';
 import { MessageModel } from './models/message.model.js';
+import { chatRouter } from './routes/chat.routes.js';
 
 const app = express();
 const server = http.createServer(app);
@@ -74,6 +75,7 @@ app.use('/api/products', productsRouter);
 app.use('/api/cart', cartRouter);
 app.use('/api/checkout', checkoutRouter);
 app.use('/api/serverinfo', serverInfoRouter);
+app.use('/api/chat', chatRouter);
 app.use(handleError);
 
 // * SOCKET

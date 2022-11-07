@@ -1,10 +1,11 @@
 import {
+	generateOrder,
 	sendMailToAdminOnCheckout,
 	sendMessageToUserOnCheckout,
 	sendWhatsappToAdminOnCheckout,
 } from '../services/checkout.services.js';
 
-const postCheckout = (req, res, next) => {
+const postCheckout = async (req, res, next) => {
 	const { user, cart } = req.body;
 	if (!user) {
 		return next(new Error('user is required'));
@@ -15,6 +16,7 @@ const postCheckout = (req, res, next) => {
 	}
 
 	try {
+		await generateOrder({ user, products: cart.products });
 		sendMailToAdminOnCheckout({ user, cart });
 		sendWhatsappToAdminOnCheckout({ user, cart });
 		sendMessageToUserOnCheckout({ user });

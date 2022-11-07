@@ -7,6 +7,7 @@ import {
 import twilio from 'twilio';
 import { Logger } from '../logger/index.js';
 import { transporter } from '../config/mailer.js';
+import { OrderModel } from '../models/order.model.js';
 
 const sendMailToAdminOnCheckout = async ({ user, cart }) => {
 	const mailOptions = {
@@ -62,8 +63,23 @@ const sendMessageToUserOnCheckout = async ({ user }) => {
 	}
 };
 
+const generateOrder = async ({ user, products }) => {
+	const order = new OrderModel({
+		user: user._id,
+		products: products.map(({ productId, quantity }) => ({
+			productId: productId._id,
+			quantity,
+		})),
+	});
+
+	await order.save();
+
+	return order;
+};
+
 export {
 	sendMailToAdminOnCheckout,
 	sendWhatsappToAdminOnCheckout,
 	sendMessageToUserOnCheckout,
+	generateOrder,
 };

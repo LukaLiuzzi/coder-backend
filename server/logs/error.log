@@ -1869,3 +1869,5 @@
 2022-11-05 21:55:13:5513 [31merror[39m: [31mconnect ECONNREFUSED ::1:27017[39m
 2022-11-06 02:48:26:4826 [31merror[39m: [31mError: process.cpus is not a function - User: undefined[39m
 2022-11-06 17:09:44:944 [31merror[39m: [31mapp is not defined[39m
+2022-11-06 20:39:05:395 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-06 20:39:05:395 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
