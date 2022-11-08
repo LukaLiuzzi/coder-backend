@@ -10,13 +10,16 @@ import { transporter } from '../config/mailer.js';
 import { OrderModel } from '../models/order.model.js';
 
 const sendMailToAdminOnCheckout = async ({ user, cart }) => {
+	console.log(cart.products);
+	console.log(cart.products[0].productId);
 	const mailOptions = {
 		from: 'smtp.ethereal.email',
 		to: MAIL_RECEIVER,
 		subject: `Nuevo pedido de ${user.name} - ${user.email} 😁`,
-		html: `<h1>Compro los productos:</h1>
+		html: `<h1>El usuario ${user.email} Compro los productos:</h1>
             ${cart.products.map(
-							(product) => `<p>${product.name} - ${product.price}</p>`
+							({ productId, quantity }) =>
+								`<p>${productId.name} - ${productId.price} - ${quantity}</p>`
 						)}
         `,
 	};
@@ -34,7 +37,8 @@ const sendWhatsappToAdminOnCheckout = async ({ user, cart }) => {
 	try {
 		const message = `Nuevo pedido de ${user.name} - ${user.email} 😁
             ${cart.products.map(
-							({ productId }) => `${productId.name} - ${productId.price}`
+							({ productId, quantity }) =>
+								`${productId.name} - ${productId.price} - ${quantity}`
 						)}
         `;
 		console.log(message);
