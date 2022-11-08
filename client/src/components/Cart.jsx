@@ -161,9 +161,10 @@ export default function Cart() {
 								<div className='flex font-semibold justify-between py-6 text-sm uppercase'>
 									<span>Costo total</span>
 									<span>
-										{cart.products
-											.map((el) => el.productId.price * el.quantity)
-											.reduce((acc, curr) => acc + curr)}
+										{cart.products.length > 0 &&
+											cart.products
+												.map((el) => el.productId.price * el.quantity)
+												.reduce((acc, curr) => acc + curr)}
 									</span>
 								</div>
 								<button

@@ -8,10 +8,79 @@ import twilio from 'twilio';
 import { Logger } from '../logger/index.js';
 import { transporter } from '../config/mailer.js';
 import { OrderModel } from '../models/order.model.js';
+import { ProductModel } from '../models/product.model.js';
+import { CartModel } from '../models/cart.model.js';
+
+const generateOrder = async ({ user, products }) => {
+	const session = await OrderModel.startSession();
+	session.startTransaction();
+	try {
+		// * Check if products has stock
+		const productsWithStock = await Promise.all(
+			products.map(async (product) => {
+				const productInDB = await ProductModel.findById(product.productId);
+				if (productInDB.stock >= product.quantity) {
+					return {
+						...product,
+						stock: productInDB.stock,
+					};
+				} else {
+					throw new Error(`Product ${productInDB.name} has not enough stock`);
+				}
+			})
+		);
+
+		// * Create order
+		const order = await OrderModel.create(
+			[
+				{
+					user: user._id,
+					products: productsWithStock.map((product) => ({
+						productId: product.productId,
+						quantity: product.quantity,
+					})),
+				},
+			],
+			{ session }
+		);
+
+		// * Update stock
+		await Promise.all(
+			productsWithStock.map(async (product) => {
+				await ProductModel.findByIdAndUpdate(product.productId, {
+					stock: product.stock - product.quantity,
+				});
+			})
+		);
+
+		// * Clear cart from user
+		const cart = await CartModel.findOne({ userId: user._id });
+		cart.products = [];
+		await cart.save();
+
+		await session.commitTransaction();
+
+		return order;
+	} catch (error) {
+		Logger.error(`Error on generateOrder: ${error}`);
+		throw error;
+	} finally {
+		session.endSession();
+	}
+};
+
+const getOrdersByUserService = async (userId) => {
+	// * Get orders by user
+	const orders = await OrderModel.find({ user: userId }).populate(
+		'products.productId'
+	);
+	if (!orders) {
+		throw new Error('No orders found');
+	}
+	return orders;
+};
 
 const sendMailToAdminOnCheckout = async ({ user, cart }) => {
-	console.log(cart.products);
-	console.log(cart.products[0].productId);
 	const mailOptions = {
 		from: 'smtp.ethereal.email',
 		to: MAIL_RECEIVER,
@@ -67,23 +136,10 @@ const sendMessageToUserOnCheckout = async ({ user }) => {
 	}
 };
 
-const generateOrder = async ({ user, products }) => {
-	const order = new OrderModel({
-		user: user._id,
-		products: products.map(({ productId, quantity }) => ({
-			productId: productId._id,
-			quantity,
-		})),
-	});
-
-	await order.save();
-
-	return order;
-};
-
 export {
 	sendMailToAdminOnCheckout,
 	sendWhatsappToAdminOnCheckout,
 	sendMessageToUserOnCheckout,
 	generateOrder,
+	getOrdersByUserService,
 };

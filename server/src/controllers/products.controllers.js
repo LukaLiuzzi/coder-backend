@@ -46,6 +46,7 @@ const postProduct = async (req, res, next) => {
 };
 
 const getProduct = async (req, res, next) => {
+	// * Check if data exists
 	if (!req.params.id) {
 		return next(new Error('id is required'));
 	}
@@ -59,6 +60,7 @@ const getProduct = async (req, res, next) => {
 };
 
 const putProduct = async (req, res, next) => {
+	// * Check if data exists
 	if (!req.params.id) {
 		return next(new Error('id is required'));
 	}
@@ -72,6 +74,7 @@ const putProduct = async (req, res, next) => {
 };
 
 const deleteProduct = async (req, res, next) => {
+	// * Check if data exists
 	if (!req.params.id) {
 		return next(new Error('id is required'));
 	}

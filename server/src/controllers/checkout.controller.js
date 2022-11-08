@@ -1,5 +1,7 @@
+import { Logger } from '../logger/index.js';
 import {
 	generateOrder,
+	getOrdersByUserService,
 	sendMailToAdminOnCheckout,
 	sendMessageToUserOnCheckout,
 	sendWhatsappToAdminOnCheckout,
@@ -7,6 +9,7 @@ import {
 
 const postCheckout = async (req, res, next) => {
 	const { user, cart } = req.body;
+	// * Check if data exists
 	if (!user) {
 		return next(new Error('user is required'));
 	}
@@ -26,4 +29,19 @@ const postCheckout = async (req, res, next) => {
 	}
 };
 
-export { postCheckout };
+const getOrdersByUser = async (req, res, next) => {
+	// * Check if data exists
+	if (!req.user._id) {
+		return next(new Error('user is required'));
+	}
+
+	try {
+		const orders = await getOrdersByUserService(req.user._id);
+		res.json(orders);
+	} catch (error) {
+		Logger.error(`Error on getOrdersByUser: ${error}`);
+		next(error);
+	}
+};
+
+export { postCheckout, getOrdersByUser };

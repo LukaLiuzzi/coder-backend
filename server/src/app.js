@@ -12,7 +12,7 @@ import cors from 'cors';
 import { logoutRouter } from './routes/logout.routes.js';
 import { productsRouter } from './routes/products.routes.js';
 import { cartRouter } from './routes/cart.routes.js';
-import { CORS_ORIGIN } from './config/config.js';
+import { CORS_ORIGIN, SESSION_MAX_AGE } from './config/config.js';
 import { checkoutRouter } from './routes/checkout.js';
 import { handleError } from './middlewares/error.handle.js';
 import { serverInfoRouter } from './routes/serverInfo.routes.js';
@@ -44,7 +44,7 @@ app.use(
 		cookie: {
 			httpOnly: false,
 			secure: false,
-			maxAge: 1000 * 60 * 60 * 24 * 7,
+			maxAge: SESSION_MAX_AGE,
 		},
 		rolling: true,
 		resave: true,

@@ -4608,3 +4608,86 @@
 2022-11-07 21:14:45:1445 [32minfo[39m: [32mMail sent to[39m
 2022-11-07 21:18:45:1845 [37mdebug[39m: [37mConnected to DB[39m
 2022-11-07 21:18:45:1845 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:46:23:4623 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:46:23:4623 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:50:44:5044 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:50:44:5044 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:53:12:5312 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:53:12:5312 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:56:33:5633 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:56:33:5633 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:56:42:5642 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:56:42:5642 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:56:44:5644 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:56:44:5644 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:57:10:5710 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:57:10:5710 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:57:45:5745 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:57:45:5745 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:59:08:598 [31merror[39m: [31mProductModel is not defined[39m
+2022-11-08 16:59:30:5930 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 16:59:30:5930 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 16:59:37:5937 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 16:59:37:5937 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 16:59:40:5940 [32minfo[39m: [32mMail sent to[39m
+2022-11-08 17:00:51:051 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:00:51:051 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:01:13:113 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:01:13:113 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:01:32:132 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:01:32:132 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:04:17:417 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:04:17:417 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:05:34:534 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:05:34:534 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:08:26:826 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 17:08:26:826 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 17:08:27:827 [32minfo[39m: [32mMail sent to[39m
+2022-11-08 17:08:54:854 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:08:54:854 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:08:58:858 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:08:58:858 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:11:21:1121 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:11:21:1121 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:12:36:1236 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 17:12:36:1236 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 17:12:37:1237 [32minfo[39m: [32mMail sent to[39m
+2022-11-08 17:23:03:233 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:23:03:233 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:23:16:2316 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:23:16:2316 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:30:28:3028 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:30:28:3028 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:30:56:3056 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:30:56:3056 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:31:13:3113 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:31:13:3113 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:32:02:322 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:32:02:322 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:33:02:332 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:33:02:332 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:33:52:3352 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:33:52:3352 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:36:12:3612 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:36:12:3612 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:38:52:3852 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:38:52:3852 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:38:57:3857 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:38:57:3857 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:39:45:3945 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:39:45:3945 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:40:05:405 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:40:05:405 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:40:54:4054 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:40:54:4054 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:41:00:410 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:41:00:410 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:47:49:4749 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:47:49:4749 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:49:42:4942 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:49:42:4942 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:50:12:5012 [37mdebug[39m: [37mConnected to DB[39m
+2022-11-08 17:50:12:5012 [37mdebug[39m: [37mServer is running on port 8080[39m
+2022-11-08 17:52:20:5220 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 17:52:20:5220 [31merror[39m: [31mThe 'To' number 1151196494 is not a valid phone number.[39m
+2022-11-08 17:52:22:5222 [32minfo[39m: [32mMail sent to[39m

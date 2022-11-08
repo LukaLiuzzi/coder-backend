@@ -15,6 +15,7 @@ const getCart = async (req, res, next) => {
 };
 
 const postCart = async (req, res, next) => {
+	// * Check if data exists
 	if (!req.body.productId) {
 		return next(new Error('productId is required'));
 	}
@@ -32,6 +33,7 @@ const postCart = async (req, res, next) => {
 };
 
 const deleteCart = async (req, res, next) => {
+	// * Check if data exists
 	if (!req.body.productId) {
 		return next(new Error('productId is required'));
 	}
